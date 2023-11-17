@@ -23,7 +23,7 @@ class ResponsiveStyles {
             this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         } else if (xl) { // >= 1200px, Mobile site
             console.log('xl');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '135px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '125px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '35px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
@@ -42,7 +42,7 @@ class ResponsiveStyles {
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (lg) { // >= 992px
             console.log('lg');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '115px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '105px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '30px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
@@ -60,7 +60,7 @@ class ResponsiveStyles {
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (md) { // >= 768px
             console.log('md');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '95px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '85px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '25px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
@@ -78,7 +78,7 @@ class ResponsiveStyles {
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (sm) { // >= 576px
             console.log('sm');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '75px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '65px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '20px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
@@ -96,7 +96,7 @@ class ResponsiveStyles {
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (xs) { // < 576px
             console.log('xs');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '55px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '45px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '15px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
