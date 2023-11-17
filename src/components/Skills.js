@@ -7,46 +7,78 @@ const { Title, Paragraph } = Typography;
 function Skills(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
-        <div style={{paddingLeft: '6%', minHeight: '100vh', maxHeight: '100vh', backgroundColor: 'red'}}>
-            <Title id="skills" style={responsiveStyles.sectionTitleStyle} level={5}>Skills</Title>
-            <Paragraph style={responsiveStyles.skillsTitleStyle}>Programming Languages</Paragraph>
-            <Row style={{paddingLeft: '3%'}}>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>C#</Col>
-                <Col xs={4} style={responsiveStyles.skillsStyle}>TypeScript</Col>
-                <Col xs={4} style={responsiveStyles.skillsStyle}>JavaScript</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>SQL</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Go</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>C++</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>C</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Swift</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Java</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>PHP</Col>
-            </Row>
-            <Paragraph style={responsiveStyles.skillsTitleStyle}>Tools</Paragraph>
-                <Row style={{paddingLeft: '3%'}}>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Git</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Bash</Col>
-                <Col xs={4} style={responsiveStyles.skillsStyle}>Powershell</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>Docker</Col>
-                <Col xs={4} style={responsiveStyles.skillsStyle}>Visual Studio</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>IntelliJ</Col>
-                <Col xs={4} style={responsiveStyles.skillsStyle}>Android Studio</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Xcode</Col>
-            </Row>
-            <Paragraph style={responsiveStyles.skillsTitleStyle}>Frameworks</Paragraph>
-            <Row style={{paddingLeft: '3%'}}>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>Node.js</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Deno</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>React</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>Vue</Col>
-                <Col xs={2} style={responsiveStyles.skillsStyle}>.NET</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>Xamarin</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>Jest</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>NUnit</Col>
-                <Col xs={3} style={responsiveStyles.skillsStyle}>JUnit</Col>
-            </Row>
-            <Chevron color="black" />
-        </div>
+        <>
+            <div style={{minHeight: '22vh', maxHeight: '22vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Title id="skills" style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
+                </div>
+            </div>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Paragraph style={responsiveStyles.skillsTitle}>Programming Languages</Paragraph>
+                </div>
+            </div>
+            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={responsiveStyles.skillsRow}>
+                        <Col xs={2} style={responsiveStyles.skills}>C#</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>TypeScript</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>JavaScript</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>SQL</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Go</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>C++</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>C</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Swift</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Java</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>PHP</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Paragraph style={responsiveStyles.skillsTitle}>Tools</Paragraph>
+                </div>
+            </div>
+            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={responsiveStyles.skillsRow}>
+                        <Col xs={2} style={responsiveStyles.skills}>Git</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Bash</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>Powershell</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>Docker</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>Visual Studio</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>IntelliJ</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>Android Studio</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Xcode</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Paragraph style={responsiveStyles.skillsTitle}>Frameworks</Paragraph>
+                </div>
+            </div>
+            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={responsiveStyles.skillsRow}>
+                        <Col xs={3} style={responsiveStyles.skills}>Node.js</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Deno</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>React</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Vue</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>.NET</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>Xamarin</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>Jest</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>NUnit</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>JUnit</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
+                    <Chevron color="black" marginTop="0" link="#experience" />
+                </div>
+            </div>
+        </>
     );
 }
 

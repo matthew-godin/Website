@@ -5,38 +5,11 @@ import { HashLink } from 'react-router-hash-link';
 import ResponsiveStyles from './ResponsiveStyles';
 import Header from './components/Header';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Projects from './components/Projects';
 const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
-
-const jobUniversityProjectSkillsWeight = '500';
-const jobSkillsWeight = jobUniversityProjectSkillsWeight;
-const universitySkillsWeight = jobUniversityProjectSkillsWeight;
-const projectSkillsWeight = jobUniversityProjectSkillsWeight;
-
-const jobUniversityProjectDatesStyle = {textAlign: 'right', fontSize: '24px', fontWeight: 'bold'};
-const jobDatesWeight = jobUniversityProjectDatesStyle;
-const universityDatesWeight = jobUniversityProjectDatesStyle;
-const projectDatesWeight = jobUniversityProjectDatesStyle;
-
-const jobUniversityProjectTitleStyle = {fontSize: '24px', fontWeight: 'bold'};
-const jobTitleWeight = jobUniversityProjectTitleStyle;
-const universityTitleWeight = jobUniversityProjectTitleStyle;
-const projectTitleWeight = jobUniversityProjectTitleStyle;
-
-const jobUniversityProjectCityStyle = {fontSize: '20px', fontWeight: 'bold', color: 'black', display: 'inline'};
-const jobCityStyle = jobUniversityProjectCityStyle;
-const universityCityStyle = jobUniversityProjectCityStyle;
-
-const jobUniversityProjectDescriptionStyle = {fontSize: '20px', fontWeight: '500', color: 'black', display: 'inline'};
-const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
-const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
-const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
-
-const experienceLineStyle = { paddingTop: '2%', paddingLeft: '3%' };
-const experienceSecondLineStyle = { paddingLeft: '3%' };
-
-const projectLineStyle = { paddingTop: '3%', paddingLeft: '3%' };
-const projectSecondLineStyle = { paddingLeft: '3%' };
 
 function App() {
   const { xs, sm, md, lg, xl, xxl } = useBreakpoint();
@@ -96,8 +69,10 @@ function App() {
       </div>
     </div>*/}
     <Header responsiveStyles={responsiveStyles} />
-    <div style={{minHeight: '10vh'}}></div>
     <Skills responsiveStyles={responsiveStyles} />
+    <Experience responsiveStyles={responsiveStyles} />
+    <Education responsiveStyles={responsiveStyles} />
+    <Projects responsiveStyles={responsiveStyles} />
     {/*<div style={{ margin: '0', width: '100%', minHeight: '90vh', position: 'relative', top: '20vh'}}>
       <div style={{ paddingBottom: '2%', paddingLeft: '6%', marginTop: 0, marginBottom: 0, width: '95%', position: 'absolute', bottom: '0'}}>
         <Title id="experience" style={sectionTitleStyle} level={5}>Experience</Title>

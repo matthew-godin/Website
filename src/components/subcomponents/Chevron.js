@@ -6,8 +6,8 @@ const { Title, Paragraph } = Typography;
 function Chevron(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
-        <div style={{marginTop: '3.5%'}}>
-            <HashLink to='#skills' style={{maxWidth: '50px', maxHeight: '50px', display: 'block', margin: 'auto'}}>
+        <div style={{marginTop: props.marginTop}}>
+            <HashLink to={props.link} style={{maxWidth: '50px', maxHeight: '50px', display: 'block', margin: 'auto'}}>
                 <svg fill={props.color} height="50px" width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="-81.49 -81.49 570.42 570.42" stroke={props.color} stroke-width="16.29748">
                     <g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g>
                     <g>
