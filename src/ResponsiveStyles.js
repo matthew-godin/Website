@@ -12,6 +12,9 @@ class ResponsiveStyles {
             this.linksSection = {textDecoration: 'none'};
             this.linksSvgSection = {};
             this.linksSvgSize = "28";
+            this.headerContainer = {paddingLeft: '6%'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "3.5%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             
@@ -26,54 +29,86 @@ class ResponsiveStyles {
             this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
             this.linksFirstDot = {display: 'none'};
             this.linksSubsequentDots = {display: 'none'};
-            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '5px'};
-            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '5px'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '10px'};
             this.linksSvgSize = "38";
+            this.headerContainer = {paddingLeft: '0'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "5%";
+
             
             this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (lg) { // >= 992px
             console.log('lg');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '58px'};
-            this.links = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'};
-            this.linksParagraph = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
-            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline-block', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
-            this.linksFirstDot = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px', marginRight: '10px'};
-            this.linksSubsequentDots = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '115px', textAlign: 'center'};
+            this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
+            this.linksParagraph = {fontSize: '30px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
+            this.linksFirstDot = {display: 'none'};
+            this.linksSubsequentDots = {display: 'none'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
+            this.linksSvgSize = "33";
+            this.headerContainer = {paddingLeft: '0'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "10%";
+            
             this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (md) { // >= 768px
             console.log('md');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '48px'};
-            this.links = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'};
-            this.linksParagraph = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
-            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline-block', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
-            this.linksFirstDot = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px', marginRight: '10px'};
-            this.linksSubsequentDots = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '95px', textAlign: 'center'};
+            this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
+            this.linksParagraph = {fontSize: '25px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
+            this.linksFirstDot = {display: 'none'};
+            this.linksSubsequentDots = {display: 'none'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
+            this.linksSvgSize = "28";
+            this.headerContainer = {paddingLeft: '0'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "12.5%";
+            
             this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (sm) { // >= 576px
             console.log('sm');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '32px'};
-            this.links = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'};
-            this.linksParagraph = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
-            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline-block', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
-            this.linksFirstDot = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px', marginRight: '10px'};
-            this.linksSubsequentDots = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '75px', textAlign: 'center'};
+            this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
+            this.linksParagraph = {fontSize: '20px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
+            this.linksFirstDot = {display: 'none'};
+            this.linksSubsequentDots = {display: 'none'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
+            this.linksSvgSize = "23";
+            this.headerContainer = {paddingLeft: '0'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "16%";
+            
             this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
         } else if (xs) { // < 576px
             console.log('xs');
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '28px'};
-            this.links = {verticalAlign: 'middle', display: 'inline-block', padding: '0', margin: '0'};
-            this.linksParagraph = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
-            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline-block', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
-            this.linksFirstDot = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px', marginRight: '10px'};
-            this.linksSubsequentDots = {fontSize: '28px', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', marginLeft: '10px'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '55px', textAlign: 'center'};
+            this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
+            this.linksParagraph = {fontSize: '15px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
+            this.linksFirstDot = {display: 'none'};
+            this.linksSubsequentDots = {display: 'none'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
+            this.linksSvgSize = "18";
+            this.headerContainer = {paddingLeft: '0'};
+            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerChevronMarginTop = "18%";
+            
             this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};

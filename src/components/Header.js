@@ -9,8 +9,8 @@ function Header(props) {
     return (
         <>
             <div style={{ margin: '0', width: '100%', minHeight: '90vh', position: 'relative', backgroundColor: '#242424'}}>
-                <div style={{ paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'}}>
-                    <div style={{paddingLeft: '6%'}}>
+                <div style={responsiveStyles.headerContainerContainer}>
+                    <div style={responsiveStyles.headerContainer}>
                         <Title level={1} style={responsiveStyles.name}>Matthew Godin</Title>
                         <span>
                             <Link to='mailto:matthew.godin.software.engineer@gmail.com' style={responsiveStyles.linksSection}>
@@ -58,7 +58,7 @@ function Header(props) {
                             </span>
                         </span>
                     </div>
-                    <Chevron color="white" marginTop="3.5%" link="#skills" />
+                    <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" />
                 </div>
             </div>
             <div style={{minHeight: '10vh'}}></div>
