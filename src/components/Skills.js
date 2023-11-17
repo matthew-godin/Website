@@ -75,7 +75,7 @@ function Skills(props) {
             </div>
             <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                    <Chevron color="black" marginTop="0" link="#experience" />
+                    <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
         </>

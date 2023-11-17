@@ -17,6 +17,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "3.5%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '50px';
             
             this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
@@ -36,10 +37,12 @@ class ResponsiveStyles {
             this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "5%";
 
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '47.5px';
             
-            this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
-            this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
-            this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
+            this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         } else if (lg) { // >= 992px
             console.log('lg');
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '105px', textAlign: 'center'};
@@ -55,9 +58,12 @@ class ResponsiveStyles {
             this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "10%";
             
-            this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
-            this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
-            this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '45px';
+            
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
+            this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         } else if (md) { // >= 768px
             console.log('md');
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '85px', textAlign: 'center'};
@@ -73,9 +79,12 @@ class ResponsiveStyles {
             this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "12.5%";
             
-            this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
-            this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
-            this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '42.5px';
+            
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
+            this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         } else if (sm) { // >= 576px
             console.log('sm');
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '65px', textAlign: 'center'};
@@ -91,9 +100,12 @@ class ResponsiveStyles {
             this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "16%";
             
-            this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
-            this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
-            this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '40px';
+            
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
+            this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         } else if (xs) { // < 576px
             console.log('xs');
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '45px', textAlign: 'center'};
@@ -109,9 +121,12 @@ class ResponsiveStyles {
             this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "18%";
             
-            this.skills = { paddingTop: '3%', textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
-            this.sectionTitle = { margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
-            this.skillsTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', paddingLeft: '3%', fontWeight: 'bold', color: 'black'};
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.chevronSize = '37.5px';
+            
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
+            this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
         }
     }
 }

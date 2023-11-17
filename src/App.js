@@ -17,8 +17,8 @@ function App() {
   return (
     <>
       <Header responsiveStyles={responsiveStyles} />
-      {/*<Skills responsiveStyles={responsiveStyles} />
-      <Experience responsiveStyles={responsiveStyles} />
+      <Skills responsiveStyles={responsiveStyles} />
+      {/*<Experience responsiveStyles={responsiveStyles} />
       <Education responsiveStyles={responsiveStyles} />
       <Projects responsiveStyles={responsiveStyles} />*/}
     </>
