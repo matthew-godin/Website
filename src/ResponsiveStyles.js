@@ -34,7 +34,7 @@ class ResponsiveStyles {
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '10px'};
             this.linksSvgSize = "38";
             this.headerContainer = {paddingLeft: '0'};
-            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerContainerContainer = { paddingBottom: '3%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "5%";
 
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
@@ -55,7 +55,7 @@ class ResponsiveStyles {
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
             this.linksSvgSize = "33";
             this.headerContainer = {paddingLeft: '0'};
-            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerContainerContainer = { paddingBottom: '4%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "10%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
@@ -76,7 +76,7 @@ class ResponsiveStyles {
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
             this.linksSvgSize = "28";
             this.headerContainer = {paddingLeft: '0'};
-            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerContainerContainer = { paddingBottom: '5%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "12.5%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
@@ -97,7 +97,7 @@ class ResponsiveStyles {
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
             this.linksSvgSize = "23";
             this.headerContainer = {paddingLeft: '0'};
-            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerContainerContainer = { paddingBottom: '6%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "16%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
@@ -118,7 +118,7 @@ class ResponsiveStyles {
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
             this.linksSvgSize = "18";
             this.headerContainer = {paddingLeft: '0'};
-            this.headerContainerContainer = { paddingBottom: '2%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
+            this.headerContainerContainer = { paddingBottom: '7%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "18%";
             
             this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
