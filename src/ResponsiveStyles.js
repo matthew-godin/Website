@@ -184,16 +184,15 @@ class ResponsiveStyles {
             this.skillsDateMobile = { textAlign: 'center', fontSize: '15px', fontWeight: 'bold', color: 'black'};
         } else if (xs) { // < 576px
             console.log('xs');
-            console.log(window.screen.width);
-            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '45px', textAlign: 'center'};
+            this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '33.5px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
-            this.linksParagraph = {fontSize: '15px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
-            this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
+            this.linksParagraph = {fontSize: '11px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold', verticalAlign: 'top'};
+            this.linksSvgSpan = {verticalAlign: 'baseline', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
             this.linksFirstDot = {display: 'none'};
             this.linksSubsequentDots = {display: 'none'};
             this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
             this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
-            this.linksSvgSize = "18";
+            this.linksSvgSize = "14";
             this.headerContainer = {paddingLeft: '0'};
             this.headerContainerContainer = { paddingBottom: '7%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
             this.headerChevronMarginTop = "5vh";
