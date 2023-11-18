@@ -15,22 +15,22 @@ function Education(props) {
             </div>
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={{textAlign: 'center', fontWeight: 'bold', fontSize: '42px'}}>University of Waterloo</Paragraph>
+                    <Paragraph style={responsiveStyles.universityName}>University of Waterloo</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={{textAlign: 'center', fontWeight: 'bold', fontSize: '32px'}}>Bachelor of Software Engineering</Paragraph>
+                    <Paragraph style={responsiveStyles.degreeName}>Bachelor of Software Engineering</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={{textAlign: 'center', fontWeight: 'bold', fontSize: '22px'}}>Honours - Co-operative Program</Paragraph>
+                    <Paragraph style={responsiveStyles.degreeMentions}>Honours - Co-operative Program</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '30vh', maxHeight: '30vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={{textAlign: 'center', fontWeight: 'bold', fontSize: '22px'}}>September 2017 - April 2022</Paragraph>
+                    <Paragraph style={responsiveStyles.degreeMentions}>September 2017 - April 2022</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>

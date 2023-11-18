@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './subcomponents/Chevron';
-import MobileSkills from './subcomponents/MobileSkills';
+import MobileProgrammingLanguages from './subcomponents/MobileProgrammingLanguages';
+import MobileTools from './subcomponents/MobileTools';
+import MobileFrameworks from './subcomponents/MobileFrameworks';
 const { Title, Paragraph } = Typography;
 
 function Skills(props) {
@@ -79,7 +81,9 @@ function Skills(props) {
                     <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
-            <MobileSkills responsiveStyles={responsiveStyles} />
+            <MobileProgrammingLanguages responsiveStyles={responsiveStyles} />
+            <MobileTools responsiveStyles={responsiveStyles} />
+            <MobileFrameworks responsiveStyles={responsiveStyles} />
         </>
     );
 }

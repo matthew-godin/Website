@@ -15,7 +15,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Talk to Me - First Place, Ceridian Hackathon 2022 (chat bot app)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me - First Place, Ceridian Hackathon 2022 (chat bot app)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -25,7 +25,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Licode - University of Waterloo Capstone Project (website similar to leetcode.com)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Licode - University of Waterloo Capstone Project (website similar to leetcode.com)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -35,7 +35,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Once Upon a Time - First Place, Hack the North 2018 (VR app)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time - First Place, Hack the North 2018 (VR app)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -45,7 +45,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Aya - First Place, Hack the North 2017 (intelligent robot head)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Aya - First Place, Hack the North 2017 (intelligent robot head)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -55,7 +55,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Messenger Latex - First Place, MHacks Nano 2017 (Google Chrome plugin)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Messenger Latex - First Place, MHacks Nano 2017 (Google Chrome plugin)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -65,7 +65,7 @@ function MobileProjects(props) {
             </div>
             <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.jobTitleMobile}>Hyper-V, Collège Lionel-Groulx graduation project (3D adventure game)</Paragraph>
+                    <Paragraph style={responsiveStyles.projectTitleMobile}>Hyper-V, Collège Lionel-Groulx graduation project (3D adventure game)</Paragraph>
                 </div>
             </div>
             <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
