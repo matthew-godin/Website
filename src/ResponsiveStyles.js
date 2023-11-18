@@ -17,7 +17,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "3.5%";
             this.headerLink = '#skills';
             
-            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px', color: 'orange'};
+            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
             this.chevronSize = '50px';
             this.sectionsMobileSite = 'block';
             this.displayMobileSite = 'none';
@@ -46,7 +46,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
 
-            this.sectionTitle = { margin: '0', fontSize: '40px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'purple'};
+            this.sectionTitle = { margin: '0', fontSize: '40px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '47.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -84,7 +84,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'yellow'};
+            this.sectionTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '45px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -122,7 +122,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '33px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'green'};
+            this.sectionTitle = { margin: '0', fontSize: '33px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '42.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -160,7 +160,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '29px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'blue'};
+            this.sectionTitle = { margin: '0', fontSize: '29px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '40px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -198,7 +198,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "7.5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '26px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'red'};
+            this.sectionTitle = { margin: '0', fontSize: '26px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '37.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
