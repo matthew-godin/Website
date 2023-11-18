@@ -190,12 +190,12 @@ class ResponsiveStyles {
             this.linksSvgSpan = {verticalAlign: 'baseline', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
             this.linksFirstDot = {display: 'none'};
             this.linksSubsequentDots = {display: 'none'};
-            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '10px'};
-            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '8px'};
+            this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '2px'};
+            this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '2px'};
             this.linksSvgSize = "14";
             this.headerContainer = {paddingLeft: '0'};
             this.headerContainerContainer = { paddingBottom: '7%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
-            this.headerChevronMarginTop = "5vh";
+            this.headerChevronMarginTop = "7.5vh";
             this.headerLink = '#programming-languages';
             
             this.sectionTitle = { margin: '0', fontSize: '26px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center' , color: 'red'};
