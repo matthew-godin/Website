@@ -184,6 +184,7 @@ class ResponsiveStyles {
             this.skillsDateMobile = { textAlign: 'center', fontSize: '15px', fontWeight: 'bold', color: 'black'};
         } else if (xs) { // < 576px
             console.log('xs');
+            console.log(window.screen.width);
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '45px', textAlign: 'center'};
             this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
             this.linksParagraph = {fontSize: '15px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
