@@ -48,7 +48,7 @@ class ResponsiveStyles {
             this.displayMobileSite = 'block';
             
             this.skillsTitle = { fontSize: '32px', fontWeight: 'bold', color: 'black', textAlign: 'center' };
-            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold', color: 'black'};
             this.skillsVh = '10vh';
 
             this.jobTitleMobile = { textAlign: 'center', fontSize: '24px', fontWeight: 'bold'};
@@ -76,7 +76,7 @@ class ResponsiveStyles {
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
             
-            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
+            this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold', color: 'black'};
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black'};
             this.skillsRow = {paddingLeft: '12%', paddingRight: '3%'};
             this.skillsVh = '10vh';
