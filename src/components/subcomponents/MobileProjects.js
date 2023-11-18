@@ -8,7 +8,7 @@ function MobileProjects(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '19vh', maxHeight: '19vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '14vh', maxHeight: '14vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Title id={responsiveStyles.sectionsMobileSite !== 'none' ? "projects-mobile" : "projects"} style={responsiveStyles.sectionTitle} level={5}>Projects</Title>
                 </div>
@@ -133,10 +133,11 @@ function MobileProjects(props) {
                     <Paragraph style={responsiveStyles.projectDateMobile}>January 2017 - May 2017</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '9vh', maxHeight: '9vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                 </div>
             </div>
+            <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
         </>
     );
 }
