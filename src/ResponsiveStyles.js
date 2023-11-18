@@ -42,14 +42,19 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "10%";
             this.headerLink = '#programming-languages';
 
-            this.sectionTitle = { paddingLeft: '6%', margin: '0', paddingTop: '3%', fontWeight: 'bold', color: 'black', fontSize: '54px'};
+            this.sectionTitle = { margin: '0', fontSize: '40px', paddingTop: '3.5%', fontWeight: 'bold', color: 'black', textAlign: 'center' };
             this.chevronSize = '47.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
             
-            this.skillsTitle = { margin: '0', fontSize: '40px', paddingTop: '3.5%', fontWeight: 'bold', color: 'black', textAlign: 'center' };
+            this.skillsTitle = { fontSize: '32px', fontWeight: 'bold', color: 'black', textAlign: 'center' };
             this.skills = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold'};
             this.skillsVh = '10vh';
+
+            this.jobTitleMobile = { textAlign: 'center', fontSize: '24px', fontWeight: 'bold'};
+            this.jobDateMobile = { textAlign: 'center', fontSize: '18px', fontWeight: 'bold'};
+
+            this.projectDateMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold'};
         } else if (lg) { // >= 992px
             console.log('lg');
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '105px', textAlign: 'center'};

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './subcomponents/Chevron';
+import MobileExperience from './subcomponents/MobileExperience';
 const { Title, Paragraph } = Typography;
 
 const experienceLineStyle = { paddingLeft: '9%', paddingRight: '3%' };
@@ -35,12 +36,12 @@ function Experience(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '18vh', maxHeight: '18vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '18vh', maxHeight: '18vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id="experience" style={responsiveStyles.sectionTitle} level={5}>Experience</Title>
+                    <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "experience-desktop" : "experience"} style={responsiveStyles.sectionTitle} level={5}>Experience</Title>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={12}>Software Developer - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -49,7 +50,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Reward Letters, Compensation Guidelines, Candidate Management</Col>
@@ -57,7 +58,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Ceridian <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -66,7 +67,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Compensation Cycles</Col>
@@ -74,7 +75,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Skillbook Academy <Paragraph style={jobCityStyle}>&ensp;Toronto, ON</Paragraph></Col>
@@ -83,7 +84,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy Admin Dashboard</Col>
@@ -91,7 +92,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Virtek Vision <Paragraph style={jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
@@ -100,7 +101,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
@@ -108,7 +109,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                 <Row style={experienceLineStyle}>
                     <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Bentley Systems <Paragraph style={jobCityStyle}>&ensp;Burlington, ON</Paragraph></Col>
@@ -117,7 +118,7 @@ function Experience(props) {
                 </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
@@ -125,7 +126,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={14}>Software Developer Intern - Netint Technologies <Paragraph style={jobCityStyle}>&ensp;Markham, ON</Paragraph></Col>
@@ -134,7 +135,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Testing</Col>
@@ -142,7 +143,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
                         <Col style={jobTitleWeight} xs={12}>Software Developer Intern - Wind River Systems <Paragraph style={jobCityStyle}>&ensp;Ottawa, ON</Paragraph></Col>
@@ -151,7 +152,7 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
@@ -159,11 +160,12 @@ function Experience(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#education" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
+            <MobileExperience responsiveStyles={responsiveStyles} />
         </>
     );
 }

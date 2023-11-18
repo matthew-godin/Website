@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './subcomponents/Chevron';
-import MobileProgrammingLanguages from './subcomponents/MobileProgrammingLanguages';
+import MobileSkills from './subcomponents/MobileSkills';
 const { Title, Paragraph } = Typography;
 
 function Skills(props) {
@@ -11,7 +11,7 @@ function Skills(props) {
         <>
             <div style={{minHeight: '22vh', maxHeight: '22vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id="skills" style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
+                    <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "skills-desktop" : "skills"} style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
                 </div>
             </div>
             <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
@@ -79,7 +79,7 @@ function Skills(props) {
                     <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
-            <MobileProgrammingLanguages responsiveStyles={responsiveStyles} />
+            <MobileSkills responsiveStyles={responsiveStyles} />
         </>
     );
 }

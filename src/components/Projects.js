@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './subcomponents/Chevron';
+import MobileProjects from './subcomponents/MobileProjects';
 const { Title, Paragraph } = Typography;
 
 const jobUniversityProjectSkillsWeight = '500';
@@ -35,12 +36,12 @@ function Projects(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '19vh', maxHeight: '19vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '22vh', maxHeight: '22vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id="projects" style={responsiveStyles.sectionTitle} level={5}>Projects</Title>
+                    <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "projects-desktop" : "projects"} style={responsiveStyles.sectionTitle} level={5}>Projects</Title>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Talk to Me</Col>
@@ -49,15 +50,15 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (Chat bot app)</Col>
+                        <Col style={jobDescriptionStyle} xs={18}>First Place for Most Well-Rounded Hack in North America, Ceridian Hackathon 2022 (chat bot app)</Col>
                         <Col xs={6} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Licode</Col>
@@ -66,15 +67,15 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (Website similar to leetcode.com)</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>University of Waterloo Capstone Project (website similar to leetcode.com)</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • React</Col>
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
@@ -83,7 +84,7 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app)</Col>
@@ -91,7 +92,7 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Aya</Col>
@@ -100,15 +101,15 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={14}>First Place - Hack the North 2017 (Intelligent robot head)</Col>
+                        <Col style={jobDescriptionStyle} xs={14}>First Place - Hack the North 2017 (intelligent robot head)</Col>
                         <Col xs={10} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software • 3D Printing</Col>
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Messenger Latex</Col>
@@ -117,7 +118,7 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>First Place - MHacks Nano 2017 (Google Chrome plugin)</Col>
@@ -125,7 +126,7 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Hyper-V</Col>
@@ -134,7 +135,7 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx graduation project (3D adventure game)</Col>
@@ -142,10 +143,11 @@ function Projects(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '15vh', maxHeight: '15vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                 </div>
             </div>
+            <MobileProjects responsiveStyles={responsiveStyles} />
         </>
     );
 }
