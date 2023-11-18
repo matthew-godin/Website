@@ -35,7 +35,7 @@ function Education(props) {
             </div>
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                    <Chevron color="black" marginTop="0" link="#projects" />
+                    <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
         </>

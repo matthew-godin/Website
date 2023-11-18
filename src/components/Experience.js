@@ -161,7 +161,7 @@ function Experience(props) {
             </div>
             <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                    <Chevron color="black" marginTop="0" link="#education" />
+                    <Chevron color="black" marginTop="0" link="#education" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
         </>
