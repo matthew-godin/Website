@@ -73,7 +73,7 @@ function MobileSkills(props) {
                     <Paragraph style={responsiveStyles.skillsDateMobile}>Jest • NUnit • JUnit</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '22vh', maxHeight: '22vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
