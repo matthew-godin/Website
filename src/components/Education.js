@@ -8,9 +8,10 @@ function Education(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '35vh' : '30vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '35vh' : '30vh', position: 'relative', width: '100%'}}>
+            <div id={responsiveStyles.sectionsMobileSite === 'none' ? "education" : "education-mobile"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
+            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '35vh' : '25vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '35vh' : '25vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id="education" style={responsiveStyles.sectionTitle} level={5}>Education</Title>
+                    <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "education-desktop" : "education"} style={responsiveStyles.sectionTitle} level={5}>Education</Title>
                 </div>
             </div>
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%'}}>

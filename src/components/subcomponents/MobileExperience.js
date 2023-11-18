@@ -8,9 +8,10 @@ function MobileTools(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '13.5vh', maxHeight: '13.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "experience-mobile" : "experience"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
+            <div style={{minHeight: '8.5vh', maxHeight: '8.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id={responsiveStyles.sectionsMobileSite !== 'none' ? "experience-mobile" : "experience"} style={responsiveStyles.sectionTitle} level={5}>Experience</Title>
+                    <Title style={responsiveStyles.sectionTitle} level={5}>Experience</Title>
                 </div>
             </div>
             <div style={{minHeight: '2.5vh', maxHeight: '2.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>

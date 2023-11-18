@@ -8,9 +8,10 @@ function MobileSkills(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '13vh', maxHeight: '13vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "skills-mobile" : "skills"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
+            <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id={responsiveStyles.sectionsMobileSite !== 'none' ? "skills-mobile" : "skills"} style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
+                    <Title style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
                 </div>
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
