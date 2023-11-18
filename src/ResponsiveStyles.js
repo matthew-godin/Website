@@ -46,7 +46,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
 
-            this.sectionTitle = { margin: '0', fontSize: '40px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
+            this.sectionTitle = { margin: '0', fontSize: '40px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '47.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -84,7 +84,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '36px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
+            this.sectionTitle = { margin: '0', fontSize: '36px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '45px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -122,7 +122,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '33px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
+            this.sectionTitle = { margin: '0', fontSize: '33px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '42.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -160,7 +160,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '29px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
+            this.sectionTitle = { margin: '0', fontSize: '29px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '40px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
@@ -198,7 +198,7 @@ class ResponsiveStyles {
             this.headerChevronMarginTop = "7.5vh";
             this.headerLink = '#programming-languages';
             
-            this.sectionTitle = { margin: '0', fontSize: '26px', paddingTop: '3%', fontWeight: 'bold', color: 'black', textAlign: 'center'};
+            this.sectionTitle = { margin: '0', fontSize: '26px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
             this.chevronSize = '37.5px';
             this.sectionsMobileSite = 'none';
             this.displayMobileSite = 'block';
