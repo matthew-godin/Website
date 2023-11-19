@@ -144,43 +144,43 @@ function MobileTools(props) {
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer - Ceridian</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Ceridian</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Skillbook Academy</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Virtek Vision</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Bentley Systems</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '9vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Netint Technologies</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Wind River Systems</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '7vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
                 <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                         <Chevron color="black" marginTop="0" link="#education" size={responsiveStyles.chevronSize} />
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
             </>
         );
     }
