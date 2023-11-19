@@ -139,7 +139,7 @@ function MobileTools(props) {
                 </div>
                 <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
                 <div style={{minHeight: '3.5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '9vh', maxHeight: '9.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer - Ceridian</Paragraph>
                     </div>
