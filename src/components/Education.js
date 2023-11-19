@@ -9,7 +9,7 @@ function Education(props) {
     return (
         <>
             <div id={responsiveStyles.sectionsMobileSite === 'none' ? "education" : "education-mobile"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '20vh' : '10vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '20vh' : '10vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '25vh' : '15vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '25vh' : '15vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "education-desktop" : "education"} style={responsiveStyles.sectionTitle} level={5}>Education</Title>
                 </div>
@@ -89,7 +89,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Algorithms</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '10vh' : '5vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '10vh' : '5vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '15vh' : '10vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '15vh' : '10vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
                 </div>
