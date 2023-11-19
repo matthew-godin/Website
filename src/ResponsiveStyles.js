@@ -220,7 +220,7 @@ class ResponsiveStyles {
             this.projectDateMobile = { textAlign: 'center', fontSize: '11px', fontWeight: 'bold', color: 'black'};
 
             this.universityName = {textAlign: 'center', fontWeight: 'bold', fontSize: '22px', color: 'black'};
-            this.degreeName = {textAlign: 'center', fontWeight: 'bold', fontSize: '17px', color: 'black'};
+            this.degreeName = {textAlign: 'center', fontWeight: 'bold', fontSize: '15px', color: 'black'};
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '14px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '16px', color: 'black'};
 
