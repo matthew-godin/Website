@@ -151,7 +151,7 @@ function MobileSkills(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -170,7 +170,7 @@ function MobileSkills(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks - Node.js • Deno • React • Vue • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
