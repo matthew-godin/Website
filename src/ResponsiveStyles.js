@@ -68,7 +68,7 @@ class ResponsiveStyles {
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '22px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '28px', color: 'black'};
 
-            this.skillsTitleMobile = { textAlign: 'center', fontSize: '28px', fontWeight: 'bold', color: 'black'};
+            this.skillsTitleMobile = { textAlign: 'center', fontSize: '25px', fontWeight: 'bold', color: 'black'};
             this.skillsDateMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
         } else if (lg) { // >= 992px
             console.log('lg');
@@ -107,7 +107,7 @@ class ResponsiveStyles {
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '20px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '25px', color: 'black'};
 
-            this.skillsTitleMobile = { textAlign: 'center', fontSize: '26px', fontWeight: 'bold', color: 'black'};
+            this.skillsTitleMobile = { textAlign: 'center', fontSize: '23px', fontWeight: 'bold', color: 'black'};
             this.skillsDateMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
         } else if (md) { // >= 768px
             console.log('md');
@@ -146,7 +146,7 @@ class ResponsiveStyles {
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '18px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '22px', color: 'black'};
 
-            this.skillsTitleMobile = { textAlign: 'center', fontSize: '24px', fontWeight: 'bold', color: 'black'};
+            this.skillsTitleMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
             this.skillsDateMobile = { textAlign: 'center', fontSize: '17px', fontWeight: 'bold', color: 'black'};
         } else if (sm) { // >= 576px
             console.log('sm');
@@ -185,7 +185,7 @@ class ResponsiveStyles {
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '16px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '19px', color: 'black'};
 
-            this.skillsTitleMobile = { textAlign: 'center', fontSize: '22px', fontWeight: 'bold', color: 'black'};
+            this.skillsTitleMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
             this.skillsDateMobile = { textAlign: 'center', fontSize: '15px', fontWeight: 'bold', color: 'black'};
         } else if (xs) { // < 576px
             console.log('xs');
@@ -224,7 +224,7 @@ class ResponsiveStyles {
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '13px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '16px', color: 'black'};
 
-            this.skillsTitleMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
+            this.skillsTitleMobile = { textAlign: 'center', fontSize: '17px', fontWeight: 'bold', color: 'black'};
             this.skillsDateMobile = { textAlign: 'center', fontSize: '13px', fontWeight: 'bold', color: 'black'};
         }
     }
