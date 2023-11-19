@@ -130,28 +130,72 @@ function MobileSkills(props) {
                         <Title style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '17vh', maxHeight: '17vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Programming Languages - C# • TypeScript • JavaScript • SQL • Python • Go • C++ • C • Swift • Java • PHP</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Programming Languages</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '17vh', maxHeight: '17vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Row>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C#</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>JavaScript</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>SQL</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Go</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C++</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Swift</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Java</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PHP</Col>
+                        </Row>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools - Git • Bash • Powershell • Docker • Visual Studio • IntelliJ • Android Studio • Xcode</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '16vh', maxHeight: '16vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Row>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Bash</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Powershell</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>Docker</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Visual Studio</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>IntelliJ</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Android Studio</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Xcode</Col>
+                        </Row>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks - Node.js • Deno • React • Vue • .NET • Xamarin • Jest • NUnit • JUnit</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Row>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>React</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Vue</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>.NET</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>Xamarin</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>Jest</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>NUnit</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>JUnit</Col>
+                        </Row>
+                    </div>
+                </div>
                 <div style={{minHeight: '13vh', maxHeight: '13vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                         <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                     </div>
                 </div>
+                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
             </>
         );
     }

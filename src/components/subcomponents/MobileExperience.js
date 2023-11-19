@@ -137,7 +137,7 @@ function MobileTools(props) {
                         <Title style={responsiveStyles.sectionTitle} level={5}>Experience</Title>
                     </div>
                 </div>
-                <div style={{minHeight: '7vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '3.5vh', display: responsiveStyles.displayMobileSite}}></div>
                 <div style={{minHeight: '9vh', maxHeight: '9.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer - Ceridian</Paragraph>
@@ -173,12 +173,12 @@ function MobileTools(props) {
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Wind River Systems</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '6.5vh', display: responsiveStyles.displayMobileSite}}></div>
                 <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                         <Chevron color="black" marginTop="0" link="#education" size={responsiveStyles.chevronSize} />
                     </div>
                 </div>
+                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
             </>
         );
     }
