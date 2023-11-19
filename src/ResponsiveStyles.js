@@ -1,6 +1,5 @@
 class ResponsiveStyles {
-    constructor(xs, sm, md, lg, xl, xxl) {
-        console.log(window.screen.orientation.type);
+    constructor(xs, sm, md, lg, xl, xxl, orientationType) {
         if (xxl) { // >= 1600px, Desktop site
             this.portrait = true;
             this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '88px'};
@@ -35,7 +34,7 @@ class ResponsiveStyles {
             this.relevantCourses = {textAlign: 'center', fontWeight: 'bold', fontSize: '18px', color: 'black'};
 
         } else if (xl) { // >= 1200px, Mobile site
-            if (window.screen.orientation.type.startsWith('portrait')) {
+            if (orientationType.startsWith('portrait')) {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '125px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
@@ -117,7 +116,7 @@ class ResponsiveStyles {
                 this.skillsDateMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
             }
         } else if (lg) { // >= 992px
-            if (window.screen.orientation.type.startsWith('portrait')) {
+            if (orientationType.startsWith('portrait')) {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '105px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
@@ -200,7 +199,7 @@ class ResponsiveStyles {
             }
             
         } else if (md) { // >= 768px
-            if (window.screen.orientation.type.startsWith('portrait')) {
+            if (orientationType.startsWith('portrait')) {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '85px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
@@ -282,7 +281,7 @@ class ResponsiveStyles {
                 this.skillsDateMobile = { textAlign: 'center', fontSize: '17px', fontWeight: 'bold', color: 'black'};
             }
         } else if (sm) { // >= 576px
-            if (window.screen.orientation.type.startsWith('portrait')) {
+            if (orientationType.startsWith('portrait')) {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '65px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
@@ -365,7 +364,7 @@ class ResponsiveStyles {
             }
             
         } else if (xs) { // < 576px
-            if (window.screen.orientation.type.startsWith('portrait')) {
+            if (orientationType.startsWith('portrait')) {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '33.5px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};

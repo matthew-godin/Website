@@ -8,12 +8,14 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import { useOrientation } from 'react-use';
 const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
 
 function App() {
   const { xs, sm, md, lg, xl, xxl } = useBreakpoint();
-  const responsiveStyles = new ResponsiveStyles(xs, sm, md, lg, xl, xxl);
+  const { orientationType } = useOrientation(); 
+  const responsiveStyles = new ResponsiveStyles(xs, sm, md, lg, xl, xxl, orientationType);
   return (
     <>
       <Header responsiveStyles={responsiveStyles} />
