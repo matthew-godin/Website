@@ -26,12 +26,14 @@ class ResponsiveStyles {
             this.skillsTitle = { margin: '0', fontSize: '36px', paddingLeft: '9%', fontWeight: 'bold', color: 'black', color: 'black'};
             this.skillsRow = {paddingLeft: '12%', paddingRight: '3%', color: 'black'};
             this.skillsVh = '22vh';
+            this.skillsSidePadding = '30%';
 
             this.universityName = {textAlign: 'center', fontWeight: 'bold', fontSize: '42px', color: 'black'};
             this.degreeName = {textAlign: 'center', fontWeight: 'bold', fontSize: '32px', color: 'black'};
             this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '22px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '28px', color: 'black'};
             this.relevantCourses = {textAlign: 'center', fontWeight: 'bold', fontSize: '18px', color: 'black'};
+
         } else if (xl) { // >= 1200px, Mobile site
             if (window.screen.orientation.type.startsWith('portrait')) {
                 this.portrait = true;
@@ -57,6 +59,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '30px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '24px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
@@ -96,6 +99,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '30px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '24px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
@@ -137,6 +141,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '27.5px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '22px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: 'black'};
@@ -176,6 +181,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '27.5px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '22px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: 'black'};
@@ -218,6 +224,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '25px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '16px', fontWeight: 'bold', color: 'black'};
@@ -257,6 +264,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '25px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '30%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '16px', fontWeight: 'bold', color: 'black'};
@@ -298,6 +306,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '22.5px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '20%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
@@ -337,6 +346,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '22.5px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '20%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
@@ -379,6 +389,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '10%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
@@ -418,6 +429,7 @@ class ResponsiveStyles {
                 this.skillsTitle = this.sectionTitle;
                 this.skills = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black', color: 'black'};
                 this.skillsVh = '10vh';
+                this.skillsSidePadding = '10%';
 
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
