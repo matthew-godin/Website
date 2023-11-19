@@ -130,7 +130,7 @@ class ResponsiveStyles {
                 this.linksSvgSize = "33";
                 this.headerContainer = {paddingLeft: '0'};
                 this.headerContainerContainer = { paddingBottom: '4%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
-                this.headerChevronMarginTop = "5vh";
+                this.headerChevronMarginTop = "10vh";
                 this.headerLink = '#programming-languages';
                 
                 this.sectionTitle = { margin: '0', fontSize: '36px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
@@ -213,7 +213,7 @@ class ResponsiveStyles {
                 this.linksSvgSize = "28";
                 this.headerContainer = {paddingLeft: '0'};
                 this.headerContainerContainer = { paddingBottom: '5%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
-                this.headerChevronMarginTop = "5vh";
+                this.headerChevronMarginTop = "10vh";
                 this.headerLink = '#programming-languages';
                 
                 this.sectionTitle = { margin: '0', fontSize: '33px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
@@ -286,7 +286,7 @@ class ResponsiveStyles {
                 this.portrait = true;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '65px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
-                this.linksParagraph = {fontSize: '2px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+                this.linksParagraph = {fontSize: '20px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
                 this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
                 this.linksFirstDot = {display: 'none'};
                 this.linksSubsequentDots = {display: 'none'};
@@ -295,7 +295,7 @@ class ResponsiveStyles {
                 this.linksSvgSize = "23";
                 this.headerContainer = {paddingLeft: '0'};
                 this.headerContainerContainer = { paddingBottom: '6%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
-                this.headerChevronMarginTop = "5vh";
+                this.headerChevronMarginTop = "10vh";
                 this.headerLink = '#programming-languages';
                 
                 this.sectionTitle = { margin: '0', fontSize: '29px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
@@ -373,12 +373,12 @@ class ResponsiveStyles {
                 this.linksSvgSpan = {verticalAlign: 'baseline', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
                 this.linksFirstDot = {display: 'none'};
                 this.linksSubsequentDots = {display: 'none'};
-                this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '2px'};
-                this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '2px'};
+                this.linksSection = {textDecoration: 'none', display: 'block', textAlign: 'center', padding: '4px'};
+                this.linksSvgSection = {display: 'block', textAlign: 'center', padding: '4px'};
                 this.linksSvgSize = "14";
                 this.headerContainer = {paddingLeft: '0'};
                 this.headerContainerContainer = { paddingBottom: '7%', marginTop: 0, marginBottom: 0, width: '100%', position: 'absolute', bottom: '0'};
-                this.headerChevronMarginTop = "7.5vh";
+                this.headerChevronMarginTop = "10vh";
                 this.headerLink = '#programming-languages';
                 
                 this.sectionTitle = { margin: '0', fontSize: '26px', fontWeight: 'bold', color: 'black', textAlign: 'center'};
