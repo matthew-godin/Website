@@ -138,7 +138,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx graduation project (3D adventure game)</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Collège Lionel-Groulx Graduation Project (3D adventure game)</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • WPF • XNA</Col>
                     </Row>
                 </div>

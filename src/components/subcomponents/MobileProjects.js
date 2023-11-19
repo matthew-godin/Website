@@ -122,7 +122,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '2.5vh', maxHeight: '2.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Collège Lionel-Groulx graduation project</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Collège Lionel-Groulx Graduation Project</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '2.5vh', maxHeight: '2.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -178,7 +178,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Hyper-V - Collège Lionel-Groulx graduation project</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Hyper-V - Collège Lionel-Groulx Graduation Project</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
