@@ -9,7 +9,7 @@ function MobileSkills(props) {
     return (
         <>
             <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "skills-mobile" : "skills"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-            <div style={{minHeight: '8vh', maxHeight: '8vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '15vh', maxHeight: '15vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Title style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
                 </div>
@@ -74,7 +74,7 @@ function MobileSkills(props) {
                     <Paragraph style={responsiveStyles.skillsDateMobile}>Jest • NUnit • JUnit</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '17vh', maxHeight: '17vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
