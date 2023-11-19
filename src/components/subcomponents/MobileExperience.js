@@ -174,13 +174,13 @@ function MobileTools(props) {
                         <Paragraph style={responsiveStyles.jobDateMobile}>Software Developer Intern - Wind River Systems</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '7vh', display: responsiveStyles.displayMobileSite}}></div>
                 <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                         <Chevron color="black" marginTop="0" link="#education" size={responsiveStyles.chevronSize} />
                     </div>
                 </div>
-                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={{minHeight: '13vh', display: responsiveStyles.displayMobileSite}}></div>
             </>
         );
     }
