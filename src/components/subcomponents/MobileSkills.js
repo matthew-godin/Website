@@ -4,7 +4,7 @@ import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './Chevron';
 const { Title, Paragraph } = Typography;
 
-const sidePadding = '20%';
+const sidePadding = '30%';
 
 function MobileSkills(props) {
     const responsiveStyles = props.responsiveStyles;
