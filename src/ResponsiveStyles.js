@@ -221,7 +221,7 @@ class ResponsiveStyles {
 
             this.universityName = {textAlign: 'center', fontWeight: 'bold', fontSize: '22px', color: 'black'};
             this.degreeName = {textAlign: 'center', fontWeight: 'bold', fontSize: '15px', color: 'black'};
-            this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '14px', color: 'black'};
+            this.degreeMentions = {textAlign: 'center', fontWeight: 'bold', fontSize: '13px', color: 'black'};
             this.relevantCoursesTitle = {textAlign: 'center', fontWeight: 'bold', fontSize: '16px', color: 'black'};
 
             this.skillsTitleMobile = { textAlign: 'center', fontSize: '20px', fontWeight: 'bold', color: 'black'};
