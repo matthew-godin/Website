@@ -21,7 +21,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>C#</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>TypeScript</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>JavaScript</Col>
@@ -30,7 +30,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>SQL</Col>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>Go</Col>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>C++</Col>
@@ -40,7 +40,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Swift</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Java</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>PHP</Col>
@@ -54,7 +54,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Git</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Bash</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Powershell</Col>
@@ -63,7 +63,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Android Studio</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Xcode</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>IntelliJ</Col>
@@ -72,7 +72,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={12} style={responsiveStyles.skillsDateMobile}>Docker</Col>
                         <Col xs={12} style={responsiveStyles.skillsDateMobile}>Visual Studio</Col>
                     </Row>
@@ -85,7 +85,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>Node.js</Col>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>Deno</Col>
                         <Col xs={6} style={responsiveStyles.skillsDateMobile}>React</Col>
@@ -95,7 +95,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={12} style={responsiveStyles.skillsDateMobile}>.NET</Col>
                         <Col xs={12} style={responsiveStyles.skillsDateMobile}>Xamarin</Col>
                     </Row>
@@ -103,7 +103,7 @@ function MobileSkills(props) {
             </div>
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '15%', paddingRight: '15%'}}>
+                    <Row style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>Jest</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>NUnit</Col>
                         <Col xs={8} style={responsiveStyles.skillsDateMobile}>JUnit</Col>
