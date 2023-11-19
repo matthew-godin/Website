@@ -14,8 +14,8 @@ const { useBreakpoint } = Grid;
 
 function App() {
   const { xs, sm, md, lg, xl, xxl } = useBreakpoint();
-  const { orientationType } = useOrientation(); 
-  const responsiveStyles = new ResponsiveStyles(xs, sm, md, lg, xl, xxl, orientationType);
+  const { type } = useOrientation(); 
+  const responsiveStyles = new ResponsiveStyles(xs, sm, md, lg, xl, xxl, type);
   return (
     <>
       <Header responsiveStyles={responsiveStyles} />
