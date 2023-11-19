@@ -326,7 +326,7 @@ class ResponsiveStyles {
                 this.portrait = false;
                 this.name = {marginTop: '0', marginBottom: '8px', color: 'white', fontWeight: '500', fontSize: '65px', textAlign: 'center'};
                 this.links = {verticalAlign: 'middle', display: 'inline', padding: '0', margin: '0'};
-                this.linksParagraph = {fontSize: '2px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
+                this.linksParagraph = {fontSize: '20px', display: 'inline', padding: '0', margin: '0', color: 'white', fontWeight: 'bold'};
                 this.linksSvgSpan = {verticalAlign: 'bottom', display: 'inline', padding: '0', margin: '0', marginRight: '10px', marginLeft: '10px'};
                 this.linksFirstDot = {display: 'none'};
                 this.linksSubsequentDots = {display: 'none'};
