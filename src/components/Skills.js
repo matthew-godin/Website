@@ -62,15 +62,16 @@ function Skills(props) {
             <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={responsiveStyles.skillsRow}>
-                        <Col xs={3} style={responsiveStyles.skills}>Node.js</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Node.js</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Deno</Col>
-                        <Col xs={3} style={responsiveStyles.skills}>React</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>React</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Vue</Col>
-                        <Col xs={2} style={responsiveStyles.skills}>.NET</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>ASP.NET Core</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>Laravel</Col>
                         <Col xs={3} style={responsiveStyles.skills}>Xamarin</Col>
-                        <Col xs={3} style={responsiveStyles.skills}>Jest</Col>
-                        <Col xs={3} style={responsiveStyles.skills}>NUnit</Col>
-                        <Col xs={3} style={responsiveStyles.skills}>JUnit</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Jest</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>NUnit</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>JUnit</Col>
                     </Row>
                 </div>
             </div>

@@ -128,7 +128,7 @@ function MobileSkillsColumns(props) {
                             </div>
                             <div style={{minHeight: '6.666vh', maxHeight: '6.666vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                                    <Paragraph style={responsiveStyles.skills}>.NET</Paragraph>
+                                    <Paragraph style={responsiveStyles.skills}>ASP.NET Core</Paragraph>
                                 </div>
                             </div>
                             <div style={{minHeight: '6.666vh', maxHeight: '6.666vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
