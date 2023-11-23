@@ -53,7 +53,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Reward Letters, Compensation Guidelines, Candidate Management</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed new Ceridian Dayforce Compensation Guidelines and Candidate Management features</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
                     </Row>
                 </div>
@@ -70,7 +70,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Ceridian Dayforce Compensation Cycles</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed new Ceridian Dayforce Compensation Cycles and Reward Letter features</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
                     </Row>
                 </div>
@@ -87,7 +87,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy Admin Dashboard</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed new features for Skillbook Academy's administrator dashboard</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
                     </Row>
                 </div>
@@ -104,7 +104,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Virtek PDC 2020.08 CAD authoring tool</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Python • C++ • WPF • ACIS</Col>
                     </Row>
                 </div>
@@ -121,7 +121,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed new features for the Bentley APM Mobile Inspections application</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
                     </Row>
                 </div>
@@ -138,7 +138,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Testing</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed automated tests for the Netint T408 Codensity SSD</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>Python • NVMe</Col>
                     </Row>
                 </div>
@@ -155,7 +155,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Developed dashboards for the Wind River Titanium Cloud infrastructure</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>Python • InfluxDB • Grafana</Col>
                     </Row>
                 </div>
