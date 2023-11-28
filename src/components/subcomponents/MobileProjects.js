@@ -57,6 +57,46 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Machine Learning Models</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Multiple Neural Network Models</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>CNNs, MLPs, RNNs, GANs, VAEs, GMMs</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>January 2022 - April 2022</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Distributed Systems</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Multiple Client-Server Applications</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>Graph processing, RPCs, Big Data, Streams</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>May 2021 - August 2021</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time</Paragraph>
                     </div>
                 </div>
@@ -73,46 +113,6 @@ function MobileProjects(props) {
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectDateMobile}>September 2018</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>First Place, Hack the North 2017</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>Intelligent Robot Head</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>September 2017</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenger Latex</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>First Place, MHacks Nano 2017</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>Google Chrome Plugin</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>June 2017</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -143,17 +143,17 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Machine Learning Models - CNNs, MLPs, RNNs, GANs, VAEs, GMMs</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Distributed Systems - Graph processing, RPCs, Big Data, Streams</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time - First Place, Hack the North 2018</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya - First Place, Hack the North 2017</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenger Latex - First Place, MHacks Nano 2017</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>

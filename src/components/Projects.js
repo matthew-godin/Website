@@ -78,6 +78,40 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
+                        <Col style={projectTitleWeight} xs={12}>Machine Learning Models</Col>
+                        <Col xs={4}></Col>
+                        <Col xs={8} style={projectDatesWeight}>January 2022 - April 2022</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={projectSecondLineStyle}>
+                        <Col style={jobDescriptionStyle} xs={14}>Multiple neural network models (CNNs, MLPs, RNNs, GANs, VAEs, GMMs, logistic regression, perceptron)</Col>
+                        <Col xs={10} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>PyTorch • Python</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={projectLineStyle}>
+                        <Col style={projectTitleWeight} xs={12}>Distributed Systems</Col>
+                        <Col xs={4}></Col>
+                        <Col xs={8} style={projectDatesWeight}>May 2021 - August 2021</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={projectSecondLineStyle}>
+                        <Col style={jobDescriptionStyle} xs={16}>Multiple client-server applications (Graph processing, RPCs, Big Data, Fault Tolerance, Streams)</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Kafka • Spark • Hadoop • Zookeeper • Java</Col>
+                    </Row>
+                </div>
+            </div>
+            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                    <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}>Once Upon a Time</Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>September 2018</Col>
@@ -89,40 +123,6 @@ function Projects(props) {
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>First Place - Hack the North 2018 (VR app)</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}>Aya</Col>
-                        <Col xs={4}></Col>
-                        <Col xs={8} style={projectDatesWeight}>September 2017</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={14}>First Place - Hack the North 2017 (intelligent robot head)</Col>
-                        <Col xs={10} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software • 3D Printing</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}>Messenger Latex</Col>
-                        <Col xs={4}></Col>
-                        <Col xs={8} style={projectDatesWeight}>June 2017</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>First Place - MHacks Nano 2017 (Google Chrome plugin)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
                     </Row>
                 </div>
             </div>
