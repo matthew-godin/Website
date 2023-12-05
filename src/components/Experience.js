@@ -53,7 +53,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Candidate Management, Guidelines and Message Center</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
                     </Row>
                 </div>
@@ -70,7 +70,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Reward Letters and Compensation Cycles</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Dayforce Reward Letters and Compensation Cycles</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • TypeScript • SQL • ASP.NET Core • React</Col>
                     </Row>
                 </div>
