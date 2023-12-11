@@ -17,37 +17,17 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>First Place, Ceridian Hackathon 2022</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>Chat Bot App</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>August 2022</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectTitleMobile}>Licode</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>University of Waterloo Capstone Project</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Coding Challenge Platform With 1v1 Format</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>Website Similar to leetcode.com</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>University of Waterloo Capstone Project</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -57,42 +37,22 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Machine Learning Models</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Multiple Neural Network Models</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>HR Forms Chat Bot App</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>CNNs, MLPs, RNNs, GANs, VAEs, GMMs</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>First Place, Ceridian Hackathon 2022</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>January 2022 - April 2022</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Distributed Systems</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Multiple Client-Server Applications</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>Graph processing, RPCs, Big Data, Streams</Paragraph>
-                    </div>
-                </div>
-                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>May 2021 - August 2021</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>August 2022</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -102,17 +62,57 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>First Place, Hack the North 2018</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>VR App Generating Story Scenery</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>VR App</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>First Place, Hack the North 2018</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Paragraph style={responsiveStyles.projectDateMobile}>September 2018</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Intelligent Robot Head</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>First Place, Hack the North 2017</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>September 2017</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenge Latex</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Google Chrome Plugin</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>First Place, MHacks Nano 2017</Paragraph>
+                    </div>
+                </div>
+                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>June 2017</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -133,27 +133,27 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me - First Place, Ceridian Hackathon 2022</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Licode - Coding Challenge Platform With 1v1 Format</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Licode - University of Waterloo Capstone Project</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me - HR Forms Chat Bot App</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Machine Learning Models - CNNs, MLPs, RNNs, GANs, VAEs, GMMs</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time - VR App Generating Story Scenery</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Distributed Systems - Graph processing, RPCs, Big Data, Streams</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya - Intelligent Robot Head</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time - First Place, Hack the North 2018</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenger Latex - Google Chrome Plugin</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
