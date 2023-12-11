@@ -51,11 +51,11 @@ function Header(props) {
                             <span style={responsiveStyles.links}>
                                 <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
                             </span>
-                            <Link to='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
+                            <a href='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
                                 <span style={responsiveStyles.links}>
                                     <Paragraph style={responsiveStyles.linksParagraph}>resume</Paragraph>
                                 </span>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                     <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
