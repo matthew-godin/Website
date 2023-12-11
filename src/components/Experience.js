@@ -87,7 +87,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Administrator Dashboard</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Administrator Dashboard</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>TypeScript • PHP • Laravel • Vue • SQL</Col>
                     </Row>
                 </div>
@@ -104,7 +104,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Virtek PDC 2020.08</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>PDC 2020.08</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Python • C++ • WPF • ACIS</Col>
                     </Row>
                 </div>
@@ -121,7 +121,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Bentley APM Mobile Inspections</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>APM Mobile Inspections</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
                     </Row>
                 </div>
@@ -138,7 +138,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Netint T408 Codensity SSD Automated Testing</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Codensity T408 SSD Automated Testing</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>Python • NVMe</Col>
                     </Row>
                 </div>
@@ -155,7 +155,7 @@ function Experience(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Wind River Titanium Cloud Infrastructure</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Titanium Cloud Infrastructure</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>Python • InfluxDB • Grafana</Col>
                     </Row>
                 </div>
