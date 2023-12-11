@@ -8,7 +8,7 @@ function Header(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{ margin: '0', width: '100%', minHeight: '90vh', position: 'relative', backgroundColor: '#242424'}}>
+            <div style={{ margin: '0', width: '100%', minHeight: '93vh', position: 'relative', backgroundColor: '#242424'}}>
                 <div style={responsiveStyles.headerContainerContainer}>
                     <div style={responsiveStyles.headerContainer}>
                         <Title level={1} style={responsiveStyles.name}>Matthew Godin</Title>
@@ -61,7 +61,7 @@ function Header(props) {
                     <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
-            <div style={{minHeight: '10vh'}}></div>
+            <div style={{minHeight: '7vh'}}></div>
         </>
     );
 }
