@@ -19,14 +19,6 @@ function Header(props) {
                                 </span>
                             </Link>
                             <span style={responsiveStyles.links}>
-                                <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
-                            </span>
-                            <Link to='tel:5196350965' style={responsiveStyles.linksSection}>
-                                <span style={responsiveStyles.links}>
-                                    <Paragraph style={responsiveStyles.linksParagraph}>(519) 635-0965</Paragraph>
-                                </span>
-                            </Link>
-                            <span style={responsiveStyles.links}>
                                 <Paragraph style={responsiveStyles.linksSubsequentDots}>•</Paragraph>
                             </span>
                             <span style={responsiveStyles.linksSvgSection}>
@@ -56,6 +48,14 @@ function Header(props) {
                                     </Link>
                                 </span>
                             </span>
+                            <span style={responsiveStyles.links}>
+                                <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
+                            </span>
+                            <Link to='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
+                                <span style={responsiveStyles.links}>
+                                    <Paragraph style={responsiveStyles.linksParagraph}>resume</Paragraph>
+                                </span>
+                            </Link>
                         </span>
                     </div>
                     <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
