@@ -35,12 +35,12 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>September 2017 - April 2022</Paragraph>
                 </div>
             </div>
-            {responsiveStyles.portrait && <><div style={{minHeight: '7.5vh', maxHeight: '7.5vh', position: 'relative', width: '100%'}}>
+            {responsiveStyles.portrait && <><div style={{minHeight: '6.5vh', maxHeight: '6.5vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.relevantCoursesTitle}>Relevant Courses</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
                         <Col xs={6} style={responsiveStyles.relevantCourses}>Introduction to Machine Learning</Col>
@@ -55,7 +55,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Introduction to Machine Learning</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
                         <Col xs={3} style={responsiveStyles.relevantCourses}>Algorithms</Col>
@@ -71,7 +71,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Concurrent and Parallel Programming</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
                         <Col xs={7} style={responsiveStyles.relevantCourses}>Software Design and Architectures</Col>
@@ -86,7 +86,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Foundations of Sequential Programs</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
                         <Col xs={4} style={responsiveStyles.relevantCourses}>User Interfaces</Col>
@@ -101,7 +101,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Introduction to Feedback Control</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '7.5vh', maxHeight: '7.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
                         <Col xs={8} style={responsiveStyles.relevantCourses}>Introduction to Methods of Software Engineering</Col>
@@ -116,12 +116,12 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Algorithms</Paragraph>
                 </div>
             </div></>}
-            <div style={{minHeight: '3.5vh', display: responsiveStyles.sectionsMobileSite}}></div>
             <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
+            <div style={{minHeight: '7vh', display: responsiveStyles.sectionsMobileSite}}></div>
             <div style={{minHeight: '13vh', display: responsiveStyles.displayMobileSite}}></div>
         </>
     );

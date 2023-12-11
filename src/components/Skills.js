@@ -14,12 +14,12 @@ function Skills(props) {
                     <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "skills-desktop" : "skills"} style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.skillsTitle}>Programming Languages</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '9vh', maxHeight: '9vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={responsiveStyles.skillsRow}>
                         <Col xs={2} style={responsiveStyles.skills}>C#</Col>
@@ -35,12 +35,12 @@ function Skills(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.skillsTitle}>Tools</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '9vh', maxHeight: '9vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={responsiveStyles.skillsRow}>
                         <Col xs={2} style={responsiveStyles.skills}>Git</Col>
@@ -54,12 +54,12 @@ function Skills(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.skillsTitle}>Frameworks</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '9vh', maxHeight: '9vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={responsiveStyles.skillsRow}>
                         <Col xs={2} style={responsiveStyles.skills}>Node.js</Col>
@@ -77,11 +77,12 @@ function Skills(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
+            <div style={{minHeight: '7vh', display: responsiveStyles.sectionsMobileSite}}></div>
             <MobileSkills responsiveStyles={responsiveStyles} />
         </>
     );
