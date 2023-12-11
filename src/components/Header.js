@@ -13,6 +13,14 @@ function Header(props) {
                     <div style={responsiveStyles.headerContainer}>
                         <Title level={1} style={responsiveStyles.name}>Matthew Godin</Title>
                         <span>
+                            <a href='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
+                                <span style={responsiveStyles.links}>
+                                    <Paragraph style={responsiveStyles.linksParagraph}>resume</Paragraph>
+                                </span>
+                            </a>
+                            <span style={responsiveStyles.links}>
+                                <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
+                            </span>
                             <Link to='mailto:matthew.godin.software.engineer@gmail.com' style={responsiveStyles.linksSection}>
                                 <span style={responsiveStyles.links}>
                                     <Paragraph style={responsiveStyles.linksParagraph}>matthew.godin.software.engineer@gmail.com</Paragraph>
@@ -48,14 +56,6 @@ function Header(props) {
                                     </Link>
                                 </span>
                             </span>
-                            <span style={responsiveStyles.links}>
-                                <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
-                            </span>
-                            <a href='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
-                                <span style={responsiveStyles.links}>
-                                    <Paragraph style={responsiveStyles.linksParagraph}>resume</Paragraph>
-                                </span>
-                            </a>
                         </span>
                     </div>
                     <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
