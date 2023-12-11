@@ -51,7 +51,7 @@ function Header(props) {
                             <span style={responsiveStyles.links}>
                                 <Paragraph style={responsiveStyles.linksFirstDot}>•</Paragraph>
                             </span>
-                            <Link onClick={window.location.reload(true)} to='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
+                            <Link to='https://matthew-godin.com/matthew-godin-resume.pdf' style={responsiveStyles.linksSection}>
                                 <span style={responsiveStyles.links}>
                                     <Paragraph style={responsiveStyles.linksParagraph}>resume</Paragraph>
                                 </span>
