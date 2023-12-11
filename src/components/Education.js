@@ -116,6 +116,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Algorithms</Paragraph>
                 </div>
             </div></>}
+            <div style={{minHeight: '3.5vh', display: responsiveStyles.sectionsMobileSite}}></div>
             <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
