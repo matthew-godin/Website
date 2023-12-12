@@ -111,7 +111,7 @@ function Education(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '5.5vh', maxHeight: '5.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.degreeMentions}>Algorithms</Paragraph>
                 </div>
