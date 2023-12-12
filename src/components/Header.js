@@ -59,6 +59,7 @@ function Header(props) {
                         </span>
                     </div>
                     <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
+                    <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
                 </div>
             </div>
             <div style={{minHeight: '7vh'}}></div>

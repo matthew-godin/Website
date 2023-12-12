@@ -30,7 +30,7 @@ function Education(props) {
                     <Paragraph style={responsiveStyles.degreeMentions}>Honours - Co-operative Program</Paragraph>
                 </div>
             </div>
-            <div style={{minHeight: !responsiveStyles.portrait ? '17.5vh' : '10vh', maxHeight: !responsiveStyles.portrait ? '17.5vh' : '10vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: !responsiveStyles.portrait ? '15.5vh' : '10vh', maxHeight: !responsiveStyles.portrait ? '15.5vh' : '10vh', position: 'relative', width: '100%'}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.degreeMentions}>September 2017 - April 2022</Paragraph>
                 </div>
@@ -122,7 +122,7 @@ function Education(props) {
                 </div>
             </div>
             <div style={{minHeight: '7vh', display: responsiveStyles.sectionsMobileSite}}></div>
-            <div style={{minHeight: '13vh', display: responsiveStyles.displayMobileSite}}></div>
+            <div style={{minHeight: '15vh', display: responsiveStyles.displayMobileSite}}></div>
         </>
     );
 }
