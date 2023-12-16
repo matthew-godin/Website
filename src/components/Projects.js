@@ -121,8 +121,8 @@ function Projects(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Google Chrome plugin that allows you to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
+                        <Col style={jobDescriptionStyle} xs={21}>Google Chrome plugin that allows you to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+                        <Col xs={3} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
                     </Row>
                 </div>
             </div>
