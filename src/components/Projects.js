@@ -54,7 +54,7 @@ function Projects(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Docker • SQL • React</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Python • Docker • SQL • React</Col>
                     </Row>
                 </div>
             </div>
