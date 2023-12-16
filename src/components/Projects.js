@@ -44,7 +44,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode-2023' style={{textDecoration: 'none'}}>Licode</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode-2023' style={{textDecoration: 'none', color: 'black'}}>Licode</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
                     </Row>
@@ -61,7 +61,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Talk-to-Me' style={{textDecoration: 'none'}}>Talk to Me</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Talk-to-Me' style={{textDecoration: 'none', color: 'black'}}>Talk to Me</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>August 2022</Col>
                     </Row>
@@ -78,7 +78,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/OnceUponATime' style={{textDecoration: 'none'}}>Talk to Me</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/OnceUponATime' style={{textDecoration: 'none', color: 'black'}}>Talk to Me</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>September 2018</Col>
                     </Row>
@@ -95,7 +95,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Aya' style={{textDecoration: 'none'}}>Aya</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Aya' style={{textDecoration: 'none', color: 'black'}}>Aya</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>September 2017</Col>
                     </Row>
@@ -112,7 +112,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/messenger-latex' style={{textDecoration: 'none'}}>Messenger Latex</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/messenger-latex' style={{textDecoration: 'none', color: 'black'}}>Messenger Latex</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>June 2017</Col>
                     </Row>
