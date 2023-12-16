@@ -78,7 +78,7 @@ function Projects(props) {
             <div style={{minHeight: '6vh', maxHeight: '6vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectLineStyle}>
-                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/OnceUponATime' style={{textDecoration: 'none', color: 'black'}}>Talk to Me</Link></Col>
+                        <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/OnceUponATime' style={{textDecoration: 'none', color: 'black'}}>Once Upon a Time</Link></Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={projectDatesWeight}>September 2018</Col>
                     </Row>
