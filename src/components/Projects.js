@@ -87,8 +87,8 @@ function Projects(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={14}>VR app generating scenery according to the story you're telling (first place, Hack the North 2018)</Col>
-                        <Col xs={10} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story you're telling (first place, Hack the North 2018)</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
                     </Row>
                 </div>
             </div>
