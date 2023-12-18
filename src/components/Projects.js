@@ -70,7 +70,7 @@ function Projects(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Chat bot app that allows you to easily fill in HR forms (first place, Ceridian Hackathon 2022)</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Chat bot app that simplifies filling in HR forms (first place, Ceridian Hackathon 2022)</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
                     </Row>
                 </div>
@@ -87,7 +87,7 @@ function Projects(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story you're telling (first place, Hack the North 2018)</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
                     </Row>
                 </div>
@@ -121,7 +121,7 @@ function Projects(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={21}>Google Chrome plugin that allows you to write mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
+                        <Col style={jobDescriptionStyle} xs={21}>Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)</Col>
                         <Col xs={3} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>JavaScript</Col>
                     </Row>
                 </div>
