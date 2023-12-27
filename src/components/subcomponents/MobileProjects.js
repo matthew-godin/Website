@@ -32,7 +32,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectDateMobile}>September 2020 - April 2022</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDateMobile}>September 2020 - Present</Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
