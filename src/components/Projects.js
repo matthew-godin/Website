@@ -46,7 +46,7 @@ function Projects(props) {
                     <Row style={projectLineStyle}>
                         <Col style={projectTitleWeight} xs={12}><Link to='https://github.com/matthew-godin/Licode-2023' style={{textDecoration: 'none', color: 'black'}}>Licode</Link></Col>
                         <Col xs={4}></Col>
-                        <Col xs={8} style={projectDatesWeight}>September 2020 - April 2022</Col>
+                        <Col xs={8} style={projectDatesWeight}>September 2020 - Present</Col>
                     </Row>
                 </div>
             </div>
