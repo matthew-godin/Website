@@ -138,7 +138,7 @@ function MobileSkills(props) {
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Row>
+                        <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C#</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>JavaScript</Col>
@@ -159,7 +159,7 @@ function MobileSkills(props) {
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Row>
+                        <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Bash</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Powershell</Col>
@@ -178,7 +178,7 @@ function MobileSkills(props) {
                 </div>
                 <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Row>
+                        <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>React</Col>
