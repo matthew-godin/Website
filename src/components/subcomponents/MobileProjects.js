@@ -17,7 +17,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Licode</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Licode' style={{textDecoration: 'none', color: 'black'}}>Licode</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -37,7 +37,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Talk-to-Me' style={{textDecoration: 'none', color: 'black'}}>Talk to Me</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -57,7 +57,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Once-Upon-a-Time' style={{textDecoration: 'none', color: 'black'}}>Once Upon a Time</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -77,7 +77,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Aya' style={{textDecoration: 'none', color: 'black'}}>Aya</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -97,7 +97,7 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenge Latex</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Messenger-Latex' style={{textDecoration: 'none', color: 'black'}}>Messenge Latex</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '3vh', maxHeight: '3vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
@@ -133,27 +133,27 @@ function MobileProjects(props) {
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Licode - Coding Challenge Platform With 1v1 Format</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Licode' style={{textDecoration: 'none', color: 'black'}}>Licode - Coding Challenge Platform With 1v1 Format</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Talk to Me - HR Forms Chat Bot App</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Talk-to-Me' style={{textDecoration: 'none', color: 'black'}}>Talk to Me - HR Forms Chat Bot App</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Once Upon a Time - VR App Generating Story Scenery</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Once-Upon-a-Time' style={{textDecoration: 'none', color: 'black'}}>Once Upon a Time - VR App Generating Story Scenery</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Aya - Intelligent Robot Head</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Aya' style={{textDecoration: 'none', color: 'black'}}>Aya - Intelligent Robot Head</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Paragraph style={responsiveStyles.projectTitleMobile}>Messenger Latex - Google Chrome Plugin</Paragraph>
+                        <Paragraph style={responsiveStyles.projectTitleMobile}><Link to='https://github.com/matthew-godin/Messenger-Latex' style={{textDecoration: 'none', color: 'black'}}>Messenger Latex - Google Chrome Plugin</Link></Paragraph>
                     </div>
                 </div>
                 <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
