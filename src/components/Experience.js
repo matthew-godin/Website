@@ -54,7 +54,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>TypeScript • React • C# • ASP.NET Core • SQL</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React SQL</Col>
                     </Row>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Dayforce Reward Letters and Compensation Cycles</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>TypeScript • React • C# • ASP.NET Core • SQL</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React SQL</Col>
                     </Row>
                 </div>
             </div>
@@ -88,7 +88,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Website</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>TypeScript • Vue • PHP • Laravel • SQL</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>PHP • Laravel • TypeScript • Vue • SQL</Col>
                     </Row>
                 </div>
             </div>
@@ -105,7 +105,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>PDC 2020.08</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • WPF • C++ • ACIS • Python</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C++ • ACIS • C# • WPF • Python</Col>
                     </Row>
                 </div>
             </div>
