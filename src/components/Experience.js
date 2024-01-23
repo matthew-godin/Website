@@ -53,7 +53,7 @@ function Experience(props) {
             <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
-                        <Col style={jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Guidelines and Message Center</Col>
+                        <Col style={jobDescriptionStyle} xs={16}>Dayforce Candidate Management, Compensation Guidelines and Message Center</Col>
                         <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • ASP.NET Core • TypeScript • React SQL</Col>
                     </Row>
                 </div>
