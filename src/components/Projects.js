@@ -54,7 +54,7 @@ function Projects(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Coding challenge platform with a 1v1 format (University of Waterloo capstone project)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Go • Deno • Python • Docker • SQL • React</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • React • Deno • Go • Python • Docker • SQL</Col>
                     </Row>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Projects(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Chat bot app that simplifies filling in HR forms (first place, Ceridian Hackathon 2022)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>TypeScript • Swift • iOS • React</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Swift • iOS • TypeScript • React</Col>
                     </Row>
                 </div>
             </div>
@@ -88,7 +88,7 @@ function Projects(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>VR app generating scenery according to the story being told (first place, Hack the North 2018)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Node.js • IBM Watson • Socket.io • Unity</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>C# • Unity • JavaScript • Node.js • IBM Watson</Col>
                     </Row>
                 </div>
             </div>
@@ -105,7 +105,7 @@ function Projects(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={projectSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Intelligent robot head capable of recognizing people and objects (first place, Hack the North 2017)</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Python • AWS • Embedded Software</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: projectSkillsWeight}}>Python • AWS</Col>
                     </Row>
                 </div>
             </div>
