@@ -88,7 +88,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>Skillbook Academy's Website</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>PHP • TypeScript • Vue • Laravel • SQL</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>PHP • Laravel • TypeScript • Vue • SQL</Col>
                     </Row>
                 </div>
             </div>
