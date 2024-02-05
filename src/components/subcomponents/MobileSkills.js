@@ -97,7 +97,7 @@ function MobileSkills(props) {
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>ASP.NET</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>ASP.NET Core</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Laravel</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>PyTorch</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Kafka</Col>
@@ -183,7 +183,7 @@ function MobileSkills(props) {
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>React</Col>
                             <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Vue</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>ASP.NET</Col>
+                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>ASP.NET Core</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Laravel</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PyTorch</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Kafka</Col>

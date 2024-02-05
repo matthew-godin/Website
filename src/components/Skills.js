@@ -66,7 +66,7 @@ function Skills(props) {
                         <Col xs={2} style={responsiveStyles.skills}>Deno</Col>
                         <Col xs={2} style={responsiveStyles.skills}>React</Col>
                         <Col xs={1} style={responsiveStyles.skills}>Vue</Col>
-                        <Col xs={4} style={responsiveStyles.skills}>ASP.NET</Col>
+                        <Col xs={4} style={responsiveStyles.skills}>ASP.NET Core</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Laravel</Col>
                         <Col xs={2} style={responsiveStyles.skills}>PyTorch</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Kafka</Col>
