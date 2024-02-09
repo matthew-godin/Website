@@ -42,9 +42,10 @@ function MobileSkills(props) {
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Swift</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Java</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>PHP</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Java</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Swift</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Kotlin</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>PHP</Col>
                         </Row>
                     </div>
                 </div>
@@ -74,8 +75,9 @@ function MobileSkills(props) {
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={12} style={responsiveStyles.skillsDateMobile}>Android Studio</Col>
-                            <Col xs={12} style={responsiveStyles.skillsDateMobile}>Visual Studio</Col>
+                            <Col xs={9} style={responsiveStyles.skillsDateMobile}>Android Studio</Col>
+                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>VS Code</Col>
+                            <Col xs={9} style={responsiveStyles.skillsDateMobile}>Visual Studio</Col>
                         </Row>
                     </div>
                 </div>
@@ -107,10 +109,11 @@ function MobileSkills(props) {
                 <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Spark</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Jest</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>NUnit</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>JUnit</Col>
+                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>Spark</Col>
+                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>WebGL</Col>
+                            <Col xs={4} style={responsiveStyles.skillsDateMobile}>Jest</Col>
+                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>NUnit</Col>
+                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>JUnit</Col>
                         </Row>
                     </div>
                 </div>
@@ -140,14 +143,15 @@ function MobileSkills(props) {
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C#</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>JavaScript</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>JavaScript</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>SQL</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Go</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C++</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Swift</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Java</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Swift</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Kotlin</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PHP</Col>
                         </Row>
                     </div>
@@ -163,9 +167,10 @@ function MobileSkills(props) {
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Bash</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Powershell</Col>
-                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>Docker</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Docker</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>VS Code</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Visual Studio</Col>
-                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>IntelliJ</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>IntelliJ</Col>
                             <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Android Studio</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Xcode</Col>
                         </Row>
@@ -180,14 +185,15 @@ function MobileSkills(props) {
                     <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
+                            <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>React</Col>
                             <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Vue</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>ASP.NET</Col>
+                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>ASP.NET</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Laravel</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PyTorch</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Kafka</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Spark</Col>
+                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>WebGL</Col>
                             <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Jest</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>NUnit</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>JUnit</Col>
