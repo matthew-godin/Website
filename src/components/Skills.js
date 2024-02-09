@@ -46,11 +46,11 @@ function Skills(props) {
                     <Row style={responsiveStyles.skillsRow}>
                         <Col xs={2} style={responsiveStyles.skills}>Git</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Bash</Col>
-                        <Col xs={4} style={responsiveStyles.skills}>Powershell</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>Powershell</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Docker</Col>
                         <Col xs={2} style={responsiveStyles.skills}>VS Code</Col>
                         <Col xs={4} style={responsiveStyles.skills}>Visual Studio</Col>
-                        <Col xs={2} style={responsiveStyles.skills}>IntelliJ</Col>
+                        <Col xs={3} style={responsiveStyles.skills}>IntelliJ</Col>
                         <Col xs={4} style={responsiveStyles.skills}>Android Studio</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Xcode</Col>
                     </Row>
@@ -65,10 +65,10 @@ function Skills(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={responsiveStyles.skillsRow}>
                         <Col xs={2} style={responsiveStyles.skills}>Node.js</Col>
-                        <Col xs={1} style={responsiveStyles.skills}>Deno</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>Deno</Col>
                         <Col xs={2} style={responsiveStyles.skills}>React</Col>
                         <Col xs={1} style={responsiveStyles.skills}>Vue</Col>
-                        <Col xs={3} style={responsiveStyles.skills}>ASP.NET</Col>
+                        <Col xs={2} style={responsiveStyles.skills}>ASP.NET</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Laravel</Col>
                         <Col xs={2} style={responsiveStyles.skills}>PyTorch</Col>
                         <Col xs={2} style={responsiveStyles.skills}>Kafka</Col>
