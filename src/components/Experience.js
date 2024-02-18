@@ -122,7 +122,7 @@ function Experience(props) {
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceSecondLineStyle}>
                         <Col style={jobDescriptionStyle} xs={16}>APM Mobile Inspections</Col>
-                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS</Col>
+                        <Col xs={8} style={{textAlign: 'right', fontSize: '20px', fontWeight: jobSkillsWeight}}>C# • Xamarin • Android • iOS • YAML</Col>
                     </Row>
                 </div>
             </div>
