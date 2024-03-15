@@ -49,7 +49,7 @@ function Education(props) {
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Row style={experienceLineStyle}>
-                        <Col style={jobTitleWeight} xs={13}>University of Waterloo <Paragraph style={jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
+                        <Col style={jobTitleWeight} xs={13}>University of Waterloo</Col>
                         <Col xs={11} style={jobDatesWeight}>September 2017 - April 2022</Col>
                     </Row>
                 </div>
