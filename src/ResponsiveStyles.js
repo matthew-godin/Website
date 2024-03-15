@@ -435,8 +435,8 @@ class ResponsiveStyles {
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
 
-                this.educationTitleMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
-                this.educationDateMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
+                this.educationTitleMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
+                this.educationDateMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
 
                 this.projectTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.projectDescriptionMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
@@ -480,8 +480,8 @@ class ResponsiveStyles {
                 this.jobTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.jobDateMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
 
-                this.educationTitleMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
-                this.educationDateMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
+                this.educationTitleMobile = { textAlign: 'center', fontSize: '21px', fontWeight: 'bold', color: 'black'};
+                this.educationDateMobile = { textAlign: 'center', fontSize: '19px', fontWeight: 'bold', color: 'black'};
 
                 this.projectTitleMobile = { textAlign: 'center', fontSize: '14px', fontWeight: 'bold', color: 'black'};
                 this.projectDescriptionMobile = { textAlign: 'center', fontSize: '12px', fontWeight: 'bold', color: 'black'};
