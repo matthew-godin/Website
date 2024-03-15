@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-import Chevron from './Chevron';
+import Chevron from '../Chevron';
 const { Title, Paragraph } = Typography;
 
 function MobileEducation(props) {

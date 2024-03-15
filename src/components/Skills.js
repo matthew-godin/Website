@@ -1,19 +1,15 @@
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-import Chevron from './subcomponents/Chevron';
-import MobileSkills from './subcomponents/MobileSkills';
-const { Title, Paragraph } = Typography;
+import { Typography, Col, Row } from 'antd';
+import MobileSkills from './mobile/MobileSkills';
+import TitleContainer from './TitleContainer';
+import ChevronContainer from './ChevronContainer';
+const { Paragraph } = Typography;
 
 function Skills(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={{minHeight: '22vh', maxHeight: '22vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "skills-desktop" : "skills"} style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
-                </div>
-            </div>
+            <TitleContainer title="Skills" responsiveStyles={responsiveStyles} />
+            <div style={{minHeight: '3vh', maxHeight: '3vh', display: responsiveStyles.sectionsMobileSite}} />
             <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Paragraph style={responsiveStyles.skillsTitle}>Programming Languages</Paragraph>
@@ -80,12 +76,7 @@ function Skills(props) {
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                    <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
-                </div>
-            </div>
-            <div style={{minHeight: '7vh', display: responsiveStyles.sectionsMobileSite}}></div>
+            <ChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
             <MobileSkills responsiveStyles={responsiveStyles} />
         </>
     );

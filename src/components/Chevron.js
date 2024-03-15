@@ -1,10 +1,6 @@
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-const { Title, Paragraph } = Typography;
 
 function Chevron(props) {
-    const responsiveStyles = props.responsiveStyles;
     return (
         <div style={{marginTop: props.marginTop}}>
             <HashLink class="no_highlights" to={props.link} style={{maxWidth: props.size, maxHeight: props.size, display: 'block', margin: 'auto'}}>

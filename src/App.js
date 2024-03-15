@@ -1,7 +1,5 @@
 import './App.css';
-import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { Grid } from 'antd';
 import ResponsiveStyles from './ResponsiveStyles';
 import Header from './components/Header';
 import Skills from './components/Skills';
@@ -9,7 +7,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import { useOrientation } from 'react-use';
-const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
 
 function App() {
