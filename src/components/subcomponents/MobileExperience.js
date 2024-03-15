@@ -4,7 +4,7 @@ import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './Chevron';
 const { Title, Paragraph } = Typography;
 
-function MobileTools(props) {
+function MobileExperience(props) {
     const responsiveStyles = props.responsiveStyles;
     if (responsiveStyles.portrait) {
         return (
@@ -186,4 +186,4 @@ function MobileTools(props) {
     }
 }
 
-export default MobileTools;
+export default MobileExperience;

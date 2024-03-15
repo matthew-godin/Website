@@ -2,127 +2,74 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Typography, Space, Card, Col, Row, Grid } from 'antd';
 import Chevron from './subcomponents/Chevron';
+import MobileEducation from './subcomponents/MobileEducation';
 const { Title, Paragraph } = Typography;
+
+const mainSize = '40px';
+const secondarySize = '35px';
+
+const experienceLineStyle = { paddingLeft: '9%', paddingRight: '3%' };
+const experienceSecondLineStyle = { paddingLeft: '9%', paddingRight: '3%' };
+
+const jobUniversityProjectSkillsWeight = '500';
+const jobSkillsWeight = jobUniversityProjectSkillsWeight;
+const universitySkillsWeight = jobUniversityProjectSkillsWeight;
+const projectSkillsWeight = jobUniversityProjectSkillsWeight;
+
+const jobUniversityProjectDatesStyle = {textAlign: 'right', fontSize: mainSize, fontWeight: 'bold'};
+const jobDatesWeight = jobUniversityProjectDatesStyle;
+const universityDatesWeight = jobUniversityProjectDatesStyle;
+const projectDatesWeight = jobUniversityProjectDatesStyle;
+
+const jobUniversityProjectTitleStyle = {fontSize: mainSize, fontWeight: 'bold'};
+const jobTitleWeight = jobUniversityProjectTitleStyle;
+const universityTitleWeight = jobUniversityProjectTitleStyle;
+const projectTitleWeight = jobUniversityProjectTitleStyle;
+
+const jobUniversityProjectCityStyle = {fontSize: secondarySize, fontWeight: 'bold', color: 'black', display: 'inline'};
+const jobCityStyle = jobUniversityProjectCityStyle;
+const universityCityStyle = jobUniversityProjectCityStyle;
+
+const jobUniversityProjectDescriptionStyle = {fontSize: secondarySize, fontWeight: '500', color: 'black', display: 'inline'};
+const jobDescriptionStyle = jobUniversityProjectDescriptionStyle;
+const universityDescriptionStyle = jobUniversityProjectDescriptionStyle;
+const projectDescriptionStyle = jobUniversityProjectDescriptionStyle;
 
 function Education(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div id={responsiveStyles.sectionsMobileSite === 'none' ? "education" : "education-mobile"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '20vh' : '10vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '20vh' : '10vh', position: 'relative', width: '100%'}}>
+            <div style={{minHeight: '18vh', maxHeight: '18vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
                     <Title id={responsiveStyles.sectionsMobileSite === 'none' ? "education-desktop" : "education"} style={responsiveStyles.sectionTitle} level={5}>Education</Title>
                 </div>
             </div>
-            {!responsiveStyles.portrait && <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>}
-            <div style={{minHeight: !responsiveStyles.portrait ? '12.5vh' : '7.5vh', maxHeight: !responsiveStyles.portrait ? '12.5vh' : '7.5vh', position: 'relative', width: '100%'}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.universityName}>University of Waterloo</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: !responsiveStyles.portrait ? '12.5vh' : '7.5vh', maxHeight: !responsiveStyles.portrait ? '12.5vh' : '7.5vh', position: 'relative', width: '100%'}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeName}>Bachelor of Software Engineering</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: !responsiveStyles.portrait ? '12.5vh' : '5vh', maxHeight: !responsiveStyles.portrait ? '12.5vh' : '5vh', position: 'relative', width: '100%'}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Honours - Co-operative Program</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: !responsiveStyles.portrait ? '15.5vh' : '10vh', maxHeight: !responsiveStyles.portrait ? '15.5vh' : '10vh', position: 'relative', width: '100%'}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>September 2017 - April 2022</Paragraph>
-                </div>
-            </div>
-            {responsiveStyles.portrait && <><div style={{minHeight: '6.5vh', maxHeight: '6.5vh', position: 'relative', width: '100%'}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.relevantCoursesTitle}>Relevant Courses</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
-                        <Col xs={6} style={responsiveStyles.relevantCourses}>Introduction to Machine Learning</Col>
-                        <Col xs={6} style={responsiveStyles.relevantCourses}>Concurrent and Parallel Programming</Col>
-                        <Col xs={6} style={responsiveStyles.relevantCourses}>Foundations of Sequential Programs</Col>
-                        <Col xs={6} style={responsiveStyles.relevantCourses}>Introduction to Feedback Control</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Introduction to Machine Learning</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
-                        <Col xs={3} style={responsiveStyles.relevantCourses}>Algorithms</Col>
-                        <Col xs={5} style={responsiveStyles.relevantCourses}>Distributed Computing</Col>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>Computer Security</Col>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>Computer Networks</Col>
-                        <Col xs={8} style={responsiveStyles.relevantCourses}>Software Requirements Specification and Analysis</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Concurrent and Parallel Programming</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
-                        <Col xs={7} style={responsiveStyles.relevantCourses}>Software Design and Architectures</Col>
-                        <Col xs={7} style={responsiveStyles.relevantCourses}>Data Structures and Data Management</Col>
-                        <Col xs={7} style={responsiveStyles.relevantCourses}>Introduction to Database Management</Col>
-                        <Col xs={3} style={responsiveStyles.relevantCourses}>Operating Systems</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Foundations of Sequential Programs</Paragraph>
-                </div>
-            </div>
-            <div style={{minHeight: '4.5vh', maxHeight: '4.5vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>User Interfaces</Col>
-                        <Col xs={8} style={responsiveStyles.relevantCourses}>Software Engineering Principles</Col>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>Logic and Computation</Col>
-                        <Col xs={8} style={responsiveStyles.relevantCourses}>Software Testing and Quality Assurance</Col>
-                    </Row>
-                </div>
-            </div>
-            <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Introduction to Feedback Control</Paragraph>
-                </div>
+            <div style={{minHeight: '23.625vh', maxHeight: '23.625vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
             </div>
             <div style={{minHeight: '7vh', maxHeight: '7vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Row style={{paddingLeft: '7%', paddingRight: '7%'}}>
-                        <Col xs={8} style={responsiveStyles.relevantCourses}>Introduction to Methods of Software Engineering</Col>
-                        <Col xs={8} style={responsiveStyles.relevantCourses}>Introduction to Data Abstraction and Implementation</Col>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>Programming Principles</Col>
-                        <Col xs={4} style={responsiveStyles.relevantCourses}>Digital Computers</Col>
+                    <Row style={experienceLineStyle}>
+                        <Col style={jobTitleWeight} xs={13}>University of Waterloo <Paragraph style={jobCityStyle}>&ensp;Waterloo, ON</Paragraph></Col>
+                        <Col xs={11} style={jobDatesWeight}>September 2017 - April 2022</Col>
                     </Row>
                 </div>
             </div>
-            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
+            <div style={{minHeight: '8.75vh', maxHeight: '8.75vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                    <Paragraph style={responsiveStyles.degreeMentions}>Algorithms</Paragraph>
+                    <Row style={experienceSecondLineStyle}>
+                        <Col style={jobDescriptionStyle} xs={24}>Bachelor's Degree, Honours Software Engineering</Col>
+                    </Row>
                 </div>
-            </div></>}
-            <div style={{minHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', maxHeight: responsiveStyles.displayMobileSite === 'none' ? '12vh' : '7vh', position: 'relative', width: '100%'}}>
+            </div>
+            <div style={{minHeight: '23.625vh', maxHeight: '23.625vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
+            </div>
+            <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
                 <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
                     <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
                 </div>
             </div>
             <div style={{minHeight: '7vh', display: responsiveStyles.sectionsMobileSite}}></div>
-            <div style={{minHeight: '15vh', display: responsiveStyles.displayMobileSite}}></div>
+            <MobileEducation responsiveStyles={responsiveStyles} />
         </>
     );
 }
