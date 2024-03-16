@@ -1,27 +1,30 @@
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-import Chevron from '../Chevron';
-const { Title, Paragraph } = Typography;
+import { Typography, Col, Row } from 'antd';
+import { getDivStyle } from '../../util/Styles';
+import MobileTitleContainer from './MobileTitleContainer';
+import { SECTIONS_STYLE } from '../../constants/Styles';
+import MobileChevronContainer from './MobileChevronContainer';
+const { Paragraph } = Typography;
+
+const PORTRAIT_TOP_SPACING = 3.5;
+const PORTRAIT_BOTTOM_SPACING = 3;
+const LANDSCAPE_TOP_SPACING = 7.5;
+const TITLE_HEIGHT = 5;
+const LIST_HEIGHT = 12;
 
 function MobileSkills(props) {
     const responsiveStyles = props.responsiveStyles;
     if (responsiveStyles.portrait) {
         return (
             <>
-                <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "skills-mobile" : "skills"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Title style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <MobileTitleContainer title="Skills" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(PORTRAIT_TOP_SPACING, responsiveStyles.displayMobileSite)} />
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>Programming Languages</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>C#</Col>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>TypeScript</Col>
@@ -29,8 +32,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>SQL</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Go</Col>
@@ -39,8 +42,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Java</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Swift</Col>
@@ -49,13 +52,13 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>Tools</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>Git</Col>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>Bash</Col>
@@ -63,8 +66,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>Docker</Col>
                             <Col xs={8} style={responsiveStyles.skillsDateMobile}>Xcode</Col>
@@ -72,8 +75,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={9} style={responsiveStyles.skillsDateMobile}>Android Studio</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>VS Code</Col>
@@ -81,13 +84,13 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>Frameworks</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Node.js</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Deno</Col>
@@ -96,8 +99,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>ASP.NET</Col>
                             <Col xs={6} style={responsiveStyles.skillsDateMobile}>Laravel</Col>
@@ -106,8 +109,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
                             <Col xs={5} style={responsiveStyles.skillsDateMobile}>Spark</Col>
                             <Col xs={5} style={responsiveStyles.skillsDateMobile}>WebGL</Col>
@@ -117,30 +120,22 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '13vh', maxHeight: '13vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                        <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
-                    </div>
-                </div>
-                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
+                <MobileChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
             </>
         );
     } else {
         return (
             <>
-                <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "skills-mobile" : "skills"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '17vh', maxHeight: '17vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Title style={responsiveStyles.sectionTitle} level={5}>Skills</Title>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <MobileTitleContainer title="Skills" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(LANDSCAPE_TOP_SPACING, responsiveStyles.displayMobileSite)} />
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Programming Languages</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C#</Col>
                             <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
@@ -156,13 +151,13 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Bash</Col>
@@ -176,13 +171,13 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '11vh', maxHeight: '11vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
                             <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
@@ -200,12 +195,7 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={{minHeight: '13vh', maxHeight: '13vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                        <Chevron color="black" marginTop="0" link="#experience" size={responsiveStyles.chevronSize} />
-                    </div>
-                </div>
-                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
+                <MobileChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
             </>
         );
     }

@@ -1,74 +1,60 @@
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import { Typography, Space, Card, Col, Row, Grid } from 'antd';
-import Chevron from '../Chevron';
-const { Title, Paragraph } = Typography;
+import { Typography } from 'antd';
+import MobileTitleContainer from './MobileTitleContainer';
+import MobileChevronContainer from './MobileChevronContainer';
+import { TOTAL_HEIGHT, MOBILE_TITLE_CONTAINER_HEIGHT, MOBILE_TOP_SPACING, MOBILE_CHEVRON_CONTAINER_HEIGHT } from '../../constants/Sizing';
+import { getDivStyle } from '../../util/Styles';
+import { SECTIONS_STYLE } from '../../constants/Styles';
+const { Paragraph } = Typography;
+
+const PORTRAIT_TOP_SECTION_HEIGHT = 5;
+const PORTRAIT_MIDDLE_SECTION_HEIGHT = 4;
+const PORTRAIT_BOTTOM_SECTION_HEIGHT = 9;
+const LANDSCAPE_TOP_SECTION_HEIGHT = 27;
+const LANDSCAPE_MIDDLE_SECTION_HEIGHT = 12;
+const LANDSCAPE_BOTTOM_SECTION_HEIGHT = 22.5;
+const LANDSCAPE_BOTTOM_SPACING = 5;
+const PORTRAIT_SPACING_HEIGHT = (TOTAL_HEIGHT - MOBILE_TOP_SPACING - MOBILE_TITLE_CONTAINER_HEIGHT - MOBILE_CHEVRON_CONTAINER_HEIGHT
+    - PORTRAIT_TOP_SECTION_HEIGHT - PORTRAIT_MIDDLE_SECTION_HEIGHT - PORTRAIT_BOTTOM_SECTION_HEIGHT) / 2.0;
 
 function MobileEducation(props) {
     const responsiveStyles = props.responsiveStyles;
     if (responsiveStyles.portrait) {
         return (
             <>
-                <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "education-mobile" : "education"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '8.5vh', maxHeight: '8.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Title style={responsiveStyles.sectionTitle} level={5}>Education</Title>
-                    </div>
-                </div>
-                <div style={{minHeight: '24.25vh', maxHeight: '24.25vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                </div>
-                <div style={{minHeight: '5vh', maxHeight: '5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <MobileTitleContainer title="Education" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(PORTRAIT_SPACING_HEIGHT, responsiveStyles.displayMobileSite)} />
+                <div style={getDivStyle(PORTRAIT_TOP_SECTION_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.educationTitleMobile}>University of Waterloo</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '4vh', maxHeight: '4vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(PORTRAIT_MIDDLE_SECTION_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.educationDateMobile}>Software Engineering</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '9vh', maxHeight: '9vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SECTION_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.educationDateMobile}>September 2017 - April 2022</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '24.25vh', maxHeight: '24.25vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                </div>
-                <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                        <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
-                    </div>
-                </div>
-                <div style={{minHeight: '10vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={getDivStyle(PORTRAIT_SPACING_HEIGHT, responsiveStyles.displayMobileSite)} />
+                <MobileChevronContainer link="#projects" responsiveStyles={responsiveStyles} />
             </>
         );
     } else {
         return (
             <>
-                <div id={responsiveStyles.sectionsMobileSite !== 'none' ? "education-mobile" : "education"} style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '8.5vh', maxHeight: '8.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
-                        <Title style={responsiveStyles.sectionTitle} level={5}>Education</Title>
-                    </div>
-                </div>
-                <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '3.5vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '18.5vh', maxHeight: '18.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                </div>
-                <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', top: 0, width: '100%'}}>
+                <MobileTitleContainer title="Education" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(LANDSCAPE_TOP_SECTION_HEIGHT, responsiveStyles.displayMobileSite)} />
+                <div style={getDivStyle(LANDSCAPE_MIDDLE_SECTION_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.educationDateMobile}>University of Waterloo - Software Engineering</Paragraph>
                     </div>
                 </div>
-                <div style={{minHeight: '18.5vh', maxHeight: '18.5vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                </div>
-                <div style={{minHeight: '4vh', display: responsiveStyles.displayMobileSite}}></div>
-                <div style={{minHeight: '10vh', maxHeight: '10vh', position: 'relative', width: '100%', display: responsiveStyles.displayMobileSite}}>
-                    <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                        <Chevron color="black" marginTop="0" link="#projects" size={responsiveStyles.chevronSize} />
-                    </div>
-                </div>
-                <div style={{minHeight: '16vh', display: responsiveStyles.displayMobileSite}}></div>
+                <div style={getDivStyle(LANDSCAPE_BOTTOM_SECTION_HEIGHT, responsiveStyles.displayMobileSite)} />
+                <MobileChevronContainer link="#projects" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(LANDSCAPE_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     }

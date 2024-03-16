@@ -12,7 +12,7 @@ function Position(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <div style={getDivStyle(TOP_SECTION_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(TOP_SECTION_HEIGHT, responsiveStyles.sectionsMobileSite)}>
                 <div style={SECTIONS_STYLE}>
                     <Row style={LINE_STYLE}>
                         <Col style={getTitleWeightStyle(MAIN_FONT_SIZE)} xs={12}>{props.job}
@@ -23,7 +23,7 @@ function Position(props) {
                     </Row>
                 </div>
             </div>
-            <div style={getDivStyle(BOTTOM_SECTION_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(BOTTOM_SECTION_HEIGHT, responsiveStyles.sectionsMobileSite)}>
                 <div style={SECTIONS_STYLE}>
                     <Row style={LINE_STYLE}>
                         <Col style={getDescriptionStyle(SECONDARY_FONT_SIZE, FONT_WEIGHT_DESCRIPTION)} xs={16}>{props.description}</Col>

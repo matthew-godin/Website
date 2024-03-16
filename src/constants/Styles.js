@@ -12,6 +12,9 @@ export const TOP = 0;
 export const BOTTOM = 0;
 export const WIDTH = '100%';
 export const MARGIN = 'auto';
+export const TEXT_DECORATION = 'none';
 
 export const LINE_STYLE = {paddingLeft: PADDING_LEFT, paddingRight: PADDING_RIGHT };
 export const SECTIONS_STYLE = {paddingBottom: PADDING_BOTTOM, position: POSITION, top: TOP, width: WIDTH};
+export const CHEVRON_STYLE = {paddingBottom: PADDING_BOTTOM, position: POSITION, bottom: BOTTOM, width: WIDTH};
+export const LINK_STYLE = {textDecoration: TEXT_DECORATION, color: COLOR};

@@ -17,9 +17,9 @@ function Education(props) {
     return (
         <>
             <TitleContainer title="Education" responsiveStyles={responsiveStyles} />
-            <div style={getDivStyle(SPACING_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(SPACING_HEIGHT, responsiveStyles.sectionsMobileSite)}>
             </div>
-            <div style={getDivStyle(TOP_SECTION_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(TOP_SECTION_HEIGHT, responsiveStyles.sectionsMobileSite)}>
                 <div style={SECTIONS_STYLE}>
                     <Row style={LINE_STYLE}>
                         <Col style={getTitleWeightStyle(MAIN_FONT_SIZE)} xs={13}>University of Waterloo</Col>
@@ -27,14 +27,14 @@ function Education(props) {
                     </Row>
                 </div>
             </div>
-            <div style={getDivStyle(BOTTOM_SECTION_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(BOTTOM_SECTION_HEIGHT, responsiveStyles.sectionsMobileSite)}>
                 <div style={SECTIONS_STYLE}>
                     <Row style={LINE_STYLE}>
                         <Col style={getDescriptionStyle(SECONDARY_FONT_SIZE, FONT_WEIGHT_DESCRIPTION)} xs={24}>Bachelor's Degree, Honours Software Engineering</Col>
                     </Row>
                 </div>
             </div>
-            <div style={getDivStyle(SPACING_HEIGHT, responsiveStyles)}>
+            <div style={getDivStyle(SPACING_HEIGHT, responsiveStyles.sectionsMobileSite)}>
             </div>
             <ChevronContainer link="#projects" responsiveStyles={responsiveStyles} />
             <MobileEducation responsiveStyles={responsiveStyles} />

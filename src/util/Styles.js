@@ -1,13 +1,13 @@
 import { POSITION_RELATIVE, WIDTH, TEXT_ALIGN, FONT_WEIGHT, COLOR, DISPLAY, FONT_WEIGHT_DESCRIPTION } from "../constants/Styles";
 import { toVh, toPx } from "./Strings";
 
-export function getDivStyle(size, responsiveStyles) {
+export function getDivStyle(size, display) {
     return {
         minHeight: toVh(size),
         maxHeight: toVh(size),
         position: POSITION_RELATIVE,
         width: WIDTH,
-        display: responsiveStyles.sectionsMobileSite
+        display: display
     };
 };
 

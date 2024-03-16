@@ -9,3 +9,7 @@ export function toVh(size) {
 export function toDesktopId(id) {
     return id + "-desktop";
 }
+
+export function toMobileId(id) {
+    return id + "-mobile";
+}
