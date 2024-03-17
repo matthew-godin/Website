@@ -34,3 +34,6 @@ export const LINKS_SVG_SPAN_STYLE = {verticalAlign: VERTICAL_ALIGN_BOTTOM, displ
 export const NO_DISPLAY = {display: DISPLAY_NONE};
 export const NO_TEXT_DECORATION = {textDecoration: TEXT_DECORATION};
 export const NO_STYLE = {};
+
+export const DESKTOP_TEXT_ALIGN = 'left';
+export const MOBILE_TEXT_ALIGN = 'center';

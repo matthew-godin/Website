@@ -19,7 +19,8 @@ export function getDescriptionStyle(size, fontWeight) {
 };
 
 export function getNameStyle(marginBottom, fontSize, textAlign) {
-    return { marginTop: MARGIN_TOP, marginBottom: toPx(marginBottom), color: COLOR_HEADER, fontWeight: FONT_WEIGHT_DESCRIPTION, fontSize: toPx(fontSize), textAlign: textAlign };
+    return { marginTop: MARGIN_TOP, marginBottom: toPx(marginBottom), color: COLOR_HEADER, fontWeight: FONT_WEIGHT_DESCRIPTION,
+        fontSize: toPx(fontSize), textAlign: textAlign };
 };
 
 export function getLinksParagraphStyle(fontSize) {
@@ -31,11 +32,13 @@ export function getSvgSpanStyle(verticalAlign, margin) {
 };
 
 export function getLinksFirstDotStyle(fontSize, margin) {
-    return { fontSize: toPx(fontSize), display: DISPLAY, padding: NO_PADDING, margin: NO_MARGIN, color: COLOR_HEADER, fontWeight: FONT_WEIGHT, marginLeft: toPx(margin), marginRight: toPx(margin) };
+    return { fontSize: toPx(fontSize), display: DISPLAY, padding: NO_PADDING, margin: NO_MARGIN, color: COLOR_HEADER, fontWeight: FONT_WEIGHT,
+        marginLeft: toPx(margin), marginRight: toPx(margin) };
 };
 
 export function getLinksSubsequentDotsStyle(fontSize, margin) {
-    return { fontSize: toPx(fontSize), display: DISPLAY, padding: NO_PADDING, margin: NO_MARGIN, color: COLOR_HEADER, fontWeight: FONT_WEIGHT, marginLeft: toPx(margin) };
+    return { fontSize: toPx(fontSize), display: DISPLAY, padding: NO_PADDING, margin: NO_MARGIN, color: COLOR_HEADER, fontWeight: FONT_WEIGHT,
+        marginLeft: toPx(margin) };
 };
 
 export function getLinksSectionStyle(padding) {
