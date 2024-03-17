@@ -41,11 +41,11 @@ class ResponsiveStyles {
                 this.linksSvgSection = stylesUtils.getLinksSvgSectionStyle(padding.linksSvgSectionPadding);
                 this.linksSvgSize = sizingConstants.MOBILE_LINKS_SVG_SIZE[orientation][size].toString();
                 this.sectionTitle = stylesUtils.getSectionTitleStyle(true, padding.paddingLeft, sizingConstants.PADDING_TOP,
-                    sizingConstants.MOBILE_SECTION_TITLE_FONT_SIZE[size], stylesConstants.DESKTOP_TEXT_ALIGN);
+                    sizingConstants.MOBILE_SECTION_TITLE_FONT_SIZE[size], stylesConstants.MOBILE_TEXT_ALIGN);
                 this.chevronSize = stringsUtils.toPx(sizingConstants.MOBILE_CHEVRON_SIZE[orientation][size]);
                 this.skills = stylesUtils.getSkillsStyle(sizingConstants.MOBILE_SKILLS_FONT_SIZE[size]);
                 this.universityName = stylesUtils.getTitleStyle(sizingConstants.MOBILE_UNIVERSITY_NAME_FONT_SIZE[size]);
-                this.degreeName = stylesUtils.getTitleStyle(sizingConstants.DESKTOP_DEGREE_NAME_FONT_SIZE[size]);
+                this.degreeName = stylesUtils.getTitleStyle(sizingConstants.MOBILE_DEGREE_NAME_FONT_SIZE[size]);
                 this.degreeMentions = stylesUtils.getTitleStyle(sizingConstants.MOBILE_DEGREE_MENTIONS_FONT_SIZE[size]);
                 this.relevantCoursesTitle = stylesUtils.getTitleStyle(sizingConstants.MOBILE_RELEVANT_COURSES_TITLE_FONT_SIZE[size]);
                 this.skillsTitle = this.sectionTitle;
