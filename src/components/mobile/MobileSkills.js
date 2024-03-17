@@ -156,7 +156,7 @@ function MobileSkills(props) {
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools</Paragraph>
                     </div>
                 </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
@@ -176,7 +176,7 @@ function MobileSkills(props) {
                         <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks</Paragraph>
                     </div>
                 </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
                             <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
