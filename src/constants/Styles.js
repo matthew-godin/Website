@@ -24,6 +24,7 @@ export const MARGIN_BOTTOM = '0';
 export const VERTICAL_ALIGN = 'middle';
 export const VERTICAL_ALIGN_BOTTOM = 'bottom';
 export const VERTICAL_ALIGN_BASELINE = 'baseline';
+export const VERTICAL_ALIGN_TOP = 'top';
 
 export const LINE_STYLE = {paddingLeft: PADDING_LEFT, paddingRight: PADDING_RIGHT };
 export const SECTIONS_STYLE = {paddingBottom: PADDING_BOTTOM, position: POSITION, top: TOP, width: WIDTH};

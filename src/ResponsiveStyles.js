@@ -40,7 +40,7 @@ class ResponsiveStyles {
                 this.linksSection = stylesUtils.getLinksSectionStyle(padding.linksSectionPadding);
                 this.linksSvgSection = stylesUtils.getLinksSvgSectionStyle(padding.linksSvgSectionPadding);
                 this.linksSvgSize = sizingConstants.MOBILE_LINKS_SVG_SIZE[orientation][size].toString();
-                this.sectionTitle = stylesUtils.getSectionTitleStyle(true, padding.paddingLeft, sizingConstants.PADDING_TOP,
+                this.sectionTitle = stylesUtils.getSectionTitleStyle(false, padding.paddingLeft, sizingConstants.PADDING_TOP,
                     sizingConstants.MOBILE_SECTION_TITLE_FONT_SIZE[size], stylesConstants.MOBILE_TEXT_ALIGN);
                 this.chevronSize = stringsUtils.toPx(sizingConstants.MOBILE_CHEVRON_SIZE[orientation][size]);
                 this.skills = stylesUtils.getSkillsStyle(sizingConstants.MOBILE_SKILLS_FONT_SIZE[size]);
@@ -121,7 +121,6 @@ class ResponsiveStyles {
             }
             
         } else if (xs) { // < 576px
-            this.linksSvgSpan.verticalAlign = stylesConstants.VERTICAL_ALIGN_BASELINE;
             if (orientationType.startsWith('portrait')) {
                 let padding = this.createPadding(stringsUtils.toPx(sizingConstants.PADDING_XS), stringsUtils.toPx(sizingConstants.PADDING_XS),
                     sizingConstants.PADDING_LEFT_HEADER_MOBILE, sizingConstants.PADDING_BOTTOM_MOBILE_XS, sizingConstants.PADDING_SKILLS_SIDE_XS);
@@ -131,6 +130,8 @@ class ResponsiveStyles {
                     sizingConstants.PADDING_LEFT_HEADER_MOBILE, sizingConstants.PADDING_BOTTOM_MOBILE_XS, sizingConstants.PADDING_SKILLS_SIDE_XS);
                 this.populateStyles(false, 'landscape', 'xs', padding, sizingConstants.CHEVRON_MARGIN_TOP_MOBILE_LANDSCAPE_XS);
             }
+            this.linksSvgSpan.verticalAlign = stylesConstants.VERTICAL_ALIGN_BASELINE;
+            this.linksParagraph.verticalAlign = stylesConstants.VERTICAL_ALIGN_TOP;
         }
     }
 }
