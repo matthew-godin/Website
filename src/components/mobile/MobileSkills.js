@@ -29,7 +29,7 @@ function MobileSkills(props) {
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(0, 3).map((skill) =>
+                            {SKILLS.programmingLanguages.content.slice(0, 4).map((skill) =>
                                 <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
                             )}
                         </Row>
@@ -38,7 +38,7 @@ function MobileSkills(props) {
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(3, 7).map((skill) =>
+                            {SKILLS.programmingLanguages.content.slice(4, 8).map((skill) =>
                                 <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
                             )}
                         </Row>
@@ -47,7 +47,7 @@ function MobileSkills(props) {
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(7, 11).map((skill) =>
+                            {SKILLS.programmingLanguages.content.slice(8, 12).map((skill) =>
                                 <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
                             )}
                         </Row>
