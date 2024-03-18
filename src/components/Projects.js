@@ -1,12 +1,13 @@
 import MobileProjects from './mobile/MobileProjects';
 import Project from './Project';
 import TitleContainer from './TitleContainer';
+import { PROJECTS } from '../constants/Content';
 
 function Projects(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <TitleContainer title="Projects" responsiveStyles={responsiveStyles} />
+            <TitleContainer title={PROJECTS.title} responsiveStyles={responsiveStyles} />
             <div style={{minHeight: '5vh', maxHeight: '5vh', display: responsiveStyles.sectionsMobileSite}} />
             <Project title="Licode" link="https://github.com/matthew-godin/Licode" date="September 2020 - Present"
                 description="Coding challenge platform with a 1v1 format (University of Waterloo capstone project)"
@@ -24,8 +25,7 @@ function Projects(props) {
                 description="Google Chrome plugin that allows writing mathematical expressions in Facebook Messenger (first place, MHacks Nano 2017)"
                 skills="JavaScript" largeDescription={true} responsiveStyles={responsiveStyles} />
             <div style={{minHeight: '12vh', maxHeight: '12vh', position: 'relative', width: '100%', display: responsiveStyles.sectionsMobileSite}}>
-                <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}}>
-                </div>
+                <div style={{ paddingBottom: '2%', position: 'absolute', bottom: 0, width: '100%'}} />
             </div>
             <MobileProjects responsiveStyles={responsiveStyles} />
         </>

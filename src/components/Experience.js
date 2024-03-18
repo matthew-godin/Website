@@ -2,12 +2,13 @@ import MobileExperience from './mobile/MobileExperience';
 import Position from './Position';
 import ChevronContainer from './ChevronContainer';
 import TitleContainer from './TitleContainer';
+import { EXPERIENCE } from '../constants/Content';
 
 function Experience(props) {
     const responsiveStyles = props.responsiveStyles;
     return (
         <>
-            <TitleContainer title="Experience" responsiveStyles={responsiveStyles} />
+            <TitleContainer title={EXPERIENCE.title} responsiveStyles={responsiveStyles} />
             <Position job="Software Developer - Ceridian " location="Toronto, ON" date="May 2022 - Present"
                 description="Dayforce Candidate Management, Compensation Guidelines and Message Center"
                 skills="C# • ASP.NET • TypeScript • React • SQL" responsiveStyles={responsiveStyles} />
