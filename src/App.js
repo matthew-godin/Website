@@ -1,6 +1,6 @@
 import './App.css';
 import { Grid } from 'antd';
-import ResponsiveStyles from './ResponsiveStyles';
+import ResponsiveStyles from './styles/ResponsiveStyles';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
