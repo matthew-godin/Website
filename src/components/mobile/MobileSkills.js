@@ -5,8 +5,8 @@ import { SECTIONS_STYLE } from '../../constants/Styles';
 import MobileChevronContainer from './MobileChevronContainer';
 const { Paragraph } = Typography;
 
-const PORTRAIT_TOP_SPACING = 3.5;
-const PORTRAIT_BOTTOM_SPACING = 3;
+const PORTRAIT_TOP_SPACING = 1.25;
+const PORTRAIT_BOTTOM_SPACING = 5.25;
 const LANDSCAPE_TOP_SPACING = 8.5;
 const LANDSCAPE_BOTTOM_SPACING = 2;
 const TITLE_HEIGHT = 5;
@@ -121,8 +121,8 @@ function MobileSkills(props) {
                         </Row>
                     </div>
                 </div>
-                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
                 <MobileChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {

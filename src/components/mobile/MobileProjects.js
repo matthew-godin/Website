@@ -1,12 +1,9 @@
-import { Link } from 'react-router-dom';
-import { Typography } from 'antd';
 import MobileTitleContainer from './MobileTitleContainer';
 import { getDivStyle } from '../../util/Styles';
 import MobilePortraitProject from './MobilePortraitProject';
 import MobileLandscapeProject from './MobileLandscapeProject';
-const { Title, Paragraph } = Typography;
 
-const PORTRAIT_BOTTOM_SPACING = 11.5;
+const PORTRAIT_BOTTOM_SPACING = 25.25;
 const LANDSCAPE_TOP_SPACING = 11.5;
 const LANDSCAPE_BOTTOM_SPACING = 15;
 

@@ -9,12 +9,13 @@ const { Paragraph } = Typography;
 const PORTRAIT_TOP_SECTION_HEIGHT = 5;
 const PORTRAIT_MIDDLE_SECTION_HEIGHT = 4;
 const PORTRAIT_BOTTOM_SECTION_HEIGHT = 9;
+const PORTRAIT_BOTTOM_SPACING = 5.25;
 const LANDSCAPE_TOP_SECTION_HEIGHT = 27;
 const LANDSCAPE_MIDDLE_SECTION_HEIGHT = 12;
 const LANDSCAPE_BOTTOM_SECTION_HEIGHT = 22.5;
 const LANDSCAPE_BOTTOM_SPACING = 5;
 const PORTRAIT_SPACING_HEIGHT = (TOTAL_HEIGHT - MOBILE_TOP_SPACING - MOBILE_TITLE_CONTAINER_HEIGHT - MOBILE_CHEVRON_CONTAINER_HEIGHT
-    - PORTRAIT_TOP_SECTION_HEIGHT - PORTRAIT_MIDDLE_SECTION_HEIGHT - PORTRAIT_BOTTOM_SECTION_HEIGHT) / 2.0;
+    - PORTRAIT_TOP_SECTION_HEIGHT - PORTRAIT_MIDDLE_SECTION_HEIGHT - PORTRAIT_BOTTOM_SECTION_HEIGHT - PORTRAIT_BOTTOM_SPACING) / 2.0;
 
 function MobileEducation(props) {
     const responsiveStyles = props.responsiveStyles;
@@ -40,6 +41,7 @@ function MobileEducation(props) {
                 </div>
                 <div style={getDivStyle(PORTRAIT_SPACING_HEIGHT, responsiveStyles.displayMobileSite)} />
                 <MobileChevronContainer link="#projects" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {

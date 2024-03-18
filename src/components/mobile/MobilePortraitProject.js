@@ -4,9 +4,9 @@ import { getDivStyle } from '../../util/Styles';
 import { LINK_STYLE, SECTIONS_STYLE } from '../../constants/Styles';
 const { Paragraph } = Typography;
 
-const TOP_SECTION_HEIGHT = 5;
-const MIDDLE_SECTION_HEIGHT = 3;
-const BOTTOM_SECTION_HEIGHT = 4;
+const TOP_SECTION_HEIGHT = 2.35;
+const MIDDLE_SECTION_HEIGHT = 2.5;
+const BOTTOM_SECTION_HEIGHT = 4.4;
 
 function MobilePortraitProject(props) {
     const responsiveStyles = props.responsiveStyles;

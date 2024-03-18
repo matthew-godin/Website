@@ -2,9 +2,9 @@ import MobileTitleContainer from './MobileTitleContainer';
 import MobileChevronContainer from './MobileChevronContainer';
 import MobilePortraitPosition from './MobilePortraitPosition';
 import MobileLandscapePosition from './MobileLandscapePosition';
-import { MOBILE_CHEVRON_BOTTOM_SPACE_HEIGHT } from '../../constants/Sizing';
 import { getDivStyle } from '../../util/Styles';
 
+const PORTRAIT_BOTTOM_SPACING = 5.25;
 const LANDSCAPE_TOP_SECTION_HEIGHT = 8.5;
 const LANDSCAPE_BOTTOM_SECTION_HEIGHT = 4;
 const LANDSCAPE_BOTTOM_SPACING = 6;
@@ -23,6 +23,7 @@ function MobileExperience(props) {
                 <MobilePortraitPosition job="Software Developer Intern" company="Netint Technologies" date="January 2019 - April 2019" responsiveStyles={responsiveStyles} />
                 <MobilePortraitPosition job="Software Developer Intern" company="Wind River Systems" date="May 2018 - August 2018" responsiveStyles={responsiveStyles} />
                 <MobileChevronContainer link="#education" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {
