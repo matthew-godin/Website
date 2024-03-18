@@ -1,5 +1,6 @@
 const HEADER = {
     siteName: 'https://matthew-godin.com/',
+    website: 'matthew-godin.com',
     name: 'Matthew Godin',
     resume: 'resume',
     resumeFileName: 'matthew-godin-resume.pdf',

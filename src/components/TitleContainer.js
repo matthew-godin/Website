@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import { toDesktopId, toVh } from '../util/Strings';
+import { toDesktopId } from '../util/Strings';
 import { TITLE_CONTAINER_HEIGHT } from '../constants/Sizing';
 import { SECTIONS_STYLE } from '../constants/Styles';
 import { getDivStyle } from '../util/Styles';
