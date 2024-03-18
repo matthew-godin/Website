@@ -3,6 +3,8 @@ import MobileChevronContainer from './MobileChevronContainer';
 import MobilePortraitPosition from './MobilePortraitPosition';
 import MobileLandscapePosition from './MobileLandscapePosition';
 import { getDivStyle } from '../../util/Styles';
+import EXPERIENCE from '../../constants/content/Experience';
+import { toIdLink } from '../../util/Strings';
 
 const PORTRAIT_BOTTOM_SPACING = 5.25;
 const LANDSCAPE_TOP_SECTION_HEIGHT = 8.5;
@@ -14,32 +16,24 @@ function MobileExperience(props) {
     if (responsiveStyles.portrait) {
         return (
             <>
-                <MobileTitleContainer title="Experience" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer" company="Ceridian" date="May 2022 - Present" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Ceridian" date="September 2021 - December 2021" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Skillbook Academy" date="January 2021 - April 2021" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Virtek Vision" date="June 2020 - August 2020" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Bentley Systems" date="September 2019 - December 2019" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Netint Technologies" date="January 2019 - April 2019" responsiveStyles={responsiveStyles} />
-                <MobilePortraitPosition job="Software Developer Intern" company="Wind River Systems" date="May 2018 - August 2018" responsiveStyles={responsiveStyles} />
-                <MobileChevronContainer link="#education" responsiveStyles={responsiveStyles} />
+                <MobileTitleContainer title={EXPERIENCE.title} responsiveStyles={responsiveStyles} />
+                {EXPERIENCE.content.map((position) =>
+                    <MobilePortraitPosition job={position.title} company={position.company} date={position.date} responsiveStyles={responsiveStyles} />
+                )}
+                <MobileChevronContainer link={toIdLink(EXPERIENCE.nextId)} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {
         return (
             <>
-                <MobileTitleContainer title="Experience" responsiveStyles={responsiveStyles} />
+                <MobileTitleContainer title={EXPERIENCE.title} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(LANDSCAPE_TOP_SECTION_HEIGHT, responsiveStyles.displayMobileSite)} />
-                <MobileLandscapePosition job="Software Developer - Ceridian" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Ceridian" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Skillbook Academy" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Virtek Vision" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Bentley Systems" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Netint Technologies" responsiveStyles={responsiveStyles} />
-                <MobileLandscapePosition job="Software Developer Intern - Wind River Systems" responsiveStyles={responsiveStyles} />
+                {EXPERIENCE.content.map((position) =>
+                    <MobileLandscapePosition job={position.title + " - " + position.company} responsiveStyles={responsiveStyles} />
+                )}
                 <div style={getDivStyle(LANDSCAPE_BOTTOM_SECTION_HEIGHT, responsiveStyles.displayMobileSite)} />
-                <MobileChevronContainer link="#education" responsiveStyles={responsiveStyles} />
+                <MobileChevronContainer link={toIdLink(EXPERIENCE.nextId)} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(LANDSCAPE_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );

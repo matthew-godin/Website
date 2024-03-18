@@ -5,7 +5,8 @@ import ChevronContainer from './ChevronContainer';
 import TitleContainer from './TitleContainer';
 import { CHEVRON_CONTAINER_HEIGHT, TITLE_CONTAINER_HEIGHT, TOTAL_HEIGHT } from '../constants/Sizing';
 import { getDatesWeightStyle, getDescriptionStyle, getDivStyle, getTitleWeightStyle } from '../util/Styles';
-import { EDUCATION } from '../constants/Content';
+import EDUCATION from '../constants/content/Education';
+import { toIdLink } from '../util/Strings';
 
 const MAIN_FONT_SIZE = 40;
 const SECONDARY_FONT_SIZE = 35;
@@ -39,7 +40,7 @@ function Education(props) {
             </div>
             <div style={getDivStyle(SPACING_HEIGHT, responsiveStyles.sectionsMobileSite)}>
             </div>
-            <ChevronContainer link="#projects" responsiveStyles={responsiveStyles} />
+            <ChevronContainer link={toIdLink(EDUCATION.nextId)} responsiveStyles={responsiveStyles} />
             <MobileEducation responsiveStyles={responsiveStyles} />
         </>
     );

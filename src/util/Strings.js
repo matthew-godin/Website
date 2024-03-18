@@ -13,3 +13,7 @@ export function toDesktopId(id) {
 export function toMobileId(id) {
     return id + "-mobile";
 }
+
+export function toIdLink(id) {
+    return '#' + id;
+}

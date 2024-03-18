@@ -3,6 +3,8 @@ import { getDivStyle } from '../../util/Styles';
 import MobileTitleContainer from './MobileTitleContainer';
 import { SECTIONS_STYLE } from '../../constants/Styles';
 import MobileChevronContainer from './MobileChevronContainer';
+import SKILLS from '../../constants/content/Skills';
+import { toIdLink } from '../../util/Strings';
 const { Paragraph } = Typography;
 
 const PORTRAIT_TOP_SPACING = 1.25;
@@ -17,187 +19,157 @@ function MobileSkills(props) {
     if (responsiveStyles.portrait) {
         return (
             <>
-                <MobileTitleContainer title="Skills" responsiveStyles={responsiveStyles} />
+                <MobileTitleContainer title={SKILLS.title} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(PORTRAIT_TOP_SPACING, responsiveStyles.displayMobileSite)} />
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.skillsTitleMobile}>Programming Languages</Paragraph>
+                        <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.programmingLanguages.title}</Paragraph>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>C#</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>TypeScript</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>JavaScript</Col>
+                            {SKILLS.programmingLanguages.content.slice(0, 3).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>SQL</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Go</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>C++</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>C</Col>
+                            {SKILLS.programmingLanguages.content.slice(3, 7).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Java</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Swift</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Kotlin</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>PHP</Col>
+                            {SKILLS.programmingLanguages.content.slice(7, 11).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.skillsTitleMobile}>Tools</Paragraph>
+                        <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.tools.title}</Paragraph>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Git</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Bash</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Powershell</Col>
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Docker</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>Xcode</Col>
-                            <Col xs={8} style={responsiveStyles.skillsDateMobile}>IntelliJ</Col>
+                            {SKILLS.tools.content.slice(0, 3).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={9} style={responsiveStyles.skillsDateMobile}>Android Studio</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>VS Code</Col>
-                            <Col xs={9} style={responsiveStyles.skillsDateMobile}>Visual Studio</Col>
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.skillsTitleMobile}>Frameworks</Paragraph>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Node.js</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Deno</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>React</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Vue</Col>
+                            {SKILLS.tools.content.slice(3, 6).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>ASP.NET</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Laravel</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>PyTorch</Col>
-                            <Col xs={6} style={responsiveStyles.skillsDateMobile}>Kafka</Col>
+                            {SKILLS.tools.content.slice(6, 9).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
+                        </Row>
+                    </div>
+                </div>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
+                        <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.frameworks.title}</Paragraph>
+                    </div>
+                </div>
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
+                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
+                            {SKILLS.frameworks.content.slice(0, 4).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>Spark</Col>
-                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>WebGL</Col>
-                            <Col xs={4} style={responsiveStyles.skillsDateMobile}>Jest</Col>
-                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>NUnit</Col>
-                            <Col xs={5} style={responsiveStyles.skillsDateMobile}>JUnit</Col>
+                            {SKILLS.frameworks.content.slice(4, 8).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
-                <MobileChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
+                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                    <div style={SECTIONS_STYLE}>
+                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
+                            {SKILLS.frameworks.content.slice(8, 13).map((skill) =>
+                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                            )}
+                        </Row>
+                    </div>
+                </div>
+                <MobileChevronContainer link={toIdLink(SKILLS.nextId)} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {
         return (
             <>
-                <MobileTitleContainer title="Skills" responsiveStyles={responsiveStyles} />
+                <MobileTitleContainer title={SKILLS.title} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(LANDSCAPE_TOP_SPACING, responsiveStyles.displayMobileSite)} />
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Programming Languages</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>{SKILLS.programmingLanguages.title}</Paragraph>
                     </div>
                 </div>
                 <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C#</Col>
-                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>TypeScript</Col>
-                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>JavaScript</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>SQL</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Go</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C++</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>C</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Java</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Swift</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Kotlin</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PHP</Col>
+                            {SKILLS.programmingLanguages.content.map((skill) =>
+                                <Col xs={skill.desktop} style={responsiveStyles.projectDescriptionMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Tools</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>{SKILLS.tools.title}</Paragraph>
                     </div>
                 </div>
                 <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Git</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Bash</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Powershell</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Docker</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>VS Code</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Visual Studio</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>IntelliJ</Col>
-                            <Col xs={4} style={responsiveStyles.projectDescriptionMobile}>Android Studio</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Xcode</Col>
+                            {SKILLS.tools.content.map((skill) =>
+                                <Col xs={skill.desktop} style={responsiveStyles.projectDescriptionMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
-                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>Frameworks</Paragraph>
+                        <Paragraph style={responsiveStyles.projectDescriptionMobile}>{SKILLS.frameworks.title}</Paragraph>
                     </div>
                 </div>
                 <div style={getDivStyle(LIST_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Row style={responsiveStyles.skillsRow}>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Node.js</Col>
-                            <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Deno</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>React</Col>
-                            <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Vue</Col>
-                            <Col xs={3} style={responsiveStyles.projectDescriptionMobile}>ASP.NET</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Laravel</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>PyTorch</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Kafka</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>Spark</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>WebGL</Col>
-                            <Col xs={1} style={responsiveStyles.projectDescriptionMobile}>Jest</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>NUnit</Col>
-                            <Col xs={2} style={responsiveStyles.projectDescriptionMobile}>JUnit</Col>
+                            {SKILLS.frameworks.content.map((skill) =>
+                                <Col xs={skill.desktop} style={responsiveStyles.projectDescriptionMobile}>{skill.name}</Col>
+                            )}
                         </Row>
                     </div>
                 </div>
                 <div style={getDivStyle(LANDSCAPE_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
-                <MobileChevronContainer link="#experience" responsiveStyles={responsiveStyles} />
+                <MobileChevronContainer link={toIdLink(SKILLS.nextId)} responsiveStyles={responsiveStyles} />
             </>
         );
     }

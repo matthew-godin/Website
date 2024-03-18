@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Typography } from 'antd';
 import Chevron from './Chevron';
+import HEADER from '../constants/content/Header';
+import { toIdLink } from '../util/Strings';
 const { Title, Paragraph } = Typography;
-import { HEADER } from '../constants/Content';
 
 function Header(props) {
     const responsiveStyles = props.responsiveStyles;
@@ -58,7 +59,7 @@ function Header(props) {
                             </span>
                         </span>
                     </div>
-                    <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link="#skills" size={responsiveStyles.chevronSize} />
+                    <Chevron color="white" marginTop={responsiveStyles.headerChevronMarginTop} link={toIdLink(HEADER.nextId)} size={responsiveStyles.chevronSize} />
                     <div style={{minHeight: '5vh', display: responsiveStyles.displayMobileSite}}></div>
                 </div>
             </div>
