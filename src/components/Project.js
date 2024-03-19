@@ -16,7 +16,7 @@ function Project(props) {
                 <div style={SECTIONS_STYLE}>
                     <Row style={LINE_STYLE}>
                         <Col style={getTitleWeightStyle(MAIN_FONT_SIZE)} xs={12}>
-                            <Link to={props.link} style={LINK_STYLE}>{props.title}</Link>
+                            <a href={props.link} style={LINK_STYLE}>{props.title}</a>
                         </Col>
                         <Col xs={4}></Col>
                         <Col xs={8} style={getDatesWeightStyle(MAIN_FONT_SIZE, FONT_WEIGHT)}>{props.date}</Col>
