@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Col, Row } from 'antd';
 import { getDatesWeightStyle, getDescriptionStyle, getDivStyle, getTitleWeightStyle } from '../util/Styles';
 import { FONT_WEIGHT, FONT_WEIGHT_DESCRIPTION, LINE_STYLE, LINK_STYLE, SECTIONS_STYLE } from '../constants/Styles';
