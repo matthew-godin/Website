@@ -4,6 +4,7 @@ import MobilePortraitProject from './MobilePortraitProject';
 import MobileLandscapeProject from './MobileLandscapeProject';
 import PROJECTS from '../../constants/content/Projects';
 
+const PORTRAIT_BOTTOM_SPACING = 5.25;
 const LANDSCAPE_TOP_SPACING = 11.5;
 
 function MobileProjects(props) {
@@ -16,6 +17,7 @@ function MobileProjects(props) {
                     <MobilePortraitProject link={project.link} title={project.title} description={project.headline}
                         additionalDescription={project.mentionHeadline} date={project.date} responsiveStyles={responsiveStyles} />
                 )}
+                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>
         );
     } else {
