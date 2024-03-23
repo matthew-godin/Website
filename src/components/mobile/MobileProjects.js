@@ -5,7 +5,7 @@ import MobileLandscapeProject from './MobileLandscapeProject';
 import PROJECTS from '../../constants/content/Projects';
 
 const PORTRAIT_BOTTOM_SPACING = 20;
-const LANDSCAPE_TOP_SPACING = 11.5;
+const LANDSCAPE_TOP_SPACING = 8.5;
 
 function MobileProjects(props) {
     const responsiveStyles = props.responsiveStyles;
