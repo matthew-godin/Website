@@ -4,7 +4,7 @@ import MobilePortraitProject from './MobilePortraitProject';
 import MobileLandscapeProject from './MobileLandscapeProject';
 import PROJECTS from '../../constants/content/Projects';
 
-const PORTRAIT_BOTTOM_SPACING = 5.25;
+const PORTRAIT_BOTTOM_SPACING = 10.5;
 const LANDSCAPE_TOP_SPACING = 11.5;
 
 function MobileProjects(props) {
