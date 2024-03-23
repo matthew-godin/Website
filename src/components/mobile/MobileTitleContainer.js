@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import { toMobileId, toVh } from '../../util/Strings';
+import { toMobileId } from '../../util/Strings';
 import { MOBILE_TITLE_CONTAINER_HEIGHT, MOBILE_TOP_SPACING } from '../../constants/Sizing';
 import { SECTIONS_STYLE } from '../../constants/Styles';
 import { getDivStyle } from '../../util/Styles';
