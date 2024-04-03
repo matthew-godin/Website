@@ -53,8 +53,8 @@ const SKILLS = {
             { name: 'Vue', desktop: 1, mobile: 6 },
             { name: 'PyTorch', desktop: 2, mobile: 6 },
             { name: 'Kafka', desktop: 2, mobile: 6 },
-            { name: 'Spark', desktop: 2, mobile: 5 },
-            { name: 'Deno', desktop: 2, mobile: 5 },
+            { name: 'Spark', desktop: 1, mobile: 5 },
+            { name: 'Deno', desktop: 1, mobile: 5 },
             { name: 'Jest', desktop: 1, mobile: 4 },
             { name: 'NUnit', desktop: 2, mobile: 5 },
             { name: 'JUnit', desktop: 2, mobile: 5 }
