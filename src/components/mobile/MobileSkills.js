@@ -16,6 +16,9 @@ const LIST_HEIGHT = 12;
 
 function MobileSkills(props) {
     const responsiveStyles = props.responsiveStyles;
+    let programmingLanguagesCurrentColumn = 0;
+    let toolsCurrentColumn = 0;
+    let frameworksCurrentColumn = 0;
     if (responsiveStyles.portrait) {
         return (
             <>
@@ -26,97 +29,58 @@ function MobileSkills(props) {
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.programmingLanguages.title}</Paragraph>
                     </div>
                 </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(0, 4).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(4, 8).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.programmingLanguages.content.slice(8, 12).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
+                {SKILLS.programmingLanguages.mobileNumColumns.map((numColumns) => {
+                        let currentColumn = programmingLanguagesCurrentColumn;
+                        programmingLanguagesCurrentColumn += numColumns;
+                        return (<div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                            <div style={SECTIONS_STYLE}>
+                                <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
+                                    {SKILLS.programmingLanguages.content.slice(currentColumn, programmingLanguagesCurrentColumn).map((skill) =>
+                                        <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                                    )}
+                                </Row>
+                            </div>
+                        </div>);
+                    }
+                )}
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.tools.title}</Paragraph>
                     </div>
                 </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.tools.content.slice(0, 3).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.tools.content.slice(3, 6).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.tools.content.slice(6, 9).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
+                {SKILLS.tools.mobileNumColumns.map((numColumns) => {
+                        let currentColumn = toolsCurrentColumn;
+                        toolsCurrentColumn += numColumns;
+                        return (<div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                            <div style={SECTIONS_STYLE}>
+                                <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
+                                    {SKILLS.tools.content.slice(currentColumn, toolsCurrentColumn).map((skill) =>
+                                        <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                                    )}
+                                </Row>
+                            </div>
+                        </div>);
+                    }
+                )}
                 <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
                     <div style={SECTIONS_STYLE}>
                         <Paragraph style={responsiveStyles.skillsTitleMobile}>{SKILLS.frameworks.title}</Paragraph>
                     </div>
                 </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.frameworks.content.slice(0, 4).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.frameworks.content.slice(4, 8).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
-                <div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
-                    <div style={SECTIONS_STYLE}>
-                        <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
-                            {SKILLS.frameworks.content.slice(8, 13).map((skill) =>
-                                <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
-                            )}
-                        </Row>
-                    </div>
-                </div>
+                {SKILLS.frameworks.mobileNumColumns.map((numColumns) => {
+                        let currentColumn = frameworksCurrentColumn;
+                        frameworksCurrentColumn += numColumns;
+                        return (<div style={getDivStyle(TITLE_HEIGHT, responsiveStyles.displayMobileSite)}>
+                            <div style={SECTIONS_STYLE}>
+                                <Row style={{paddingLeft: responsiveStyles.skillsSidePadding, paddingRight: responsiveStyles.skillsSidePadding}}>
+                                    {SKILLS.frameworks.content.slice(currentColumn, frameworksCurrentColumn).map((skill) =>
+                                        <Col xs={skill.mobile} style={responsiveStyles.skillsDateMobile}>{skill.name}</Col>
+                                    )}
+                                </Row>
+                            </div>
+                        </div>);
+                    }
+                )}
                 <MobileChevronContainer link={toIdLink(SKILLS.nextId)} responsiveStyles={responsiveStyles} />
                 <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
             </>

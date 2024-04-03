@@ -15,6 +15,11 @@ const SKILLS = {
             { name: 'Ruby', desktop: 2, mobile: 6 },
             { name: 'Swift', desktop: 2, mobile: 6 },
             { name: 'PHP', desktop: 2, mobile: 6 }
+        ],
+        mobileNumColumns: [
+            4,
+            4,
+            4
         ]
     },
     tools: {
@@ -29,6 +34,11 @@ const SKILLS = {
             { name: 'IntelliJ', desktop: 3, mobile: 6 },
             { name: 'Android Studio', desktop: 4, mobile: 12 },
             { name: 'Xcode', desktop: 2, mobile: 6 }
+        ],
+        mobileNumColumns: [
+            3,
+            3,
+            3
         ]
     },
     frameworks: {
@@ -47,6 +57,11 @@ const SKILLS = {
             { name: 'Jest', desktop: 1, mobile: 4 },
             { name: 'NUnit', desktop: 2, mobile: 5 },
             { name: 'JUnit', desktop: 2, mobile: 5 }
+        ],
+        mobileNumColumns: [
+            4,
+            4,
+            5
         ]
     },
     nextId: 'experience'
