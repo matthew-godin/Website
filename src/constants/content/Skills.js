@@ -48,11 +48,9 @@ const SKILLS = {
             { name: 'Deno', desktop: 2, mobile: 6 },
             { name: 'React', desktop: 2, mobile: 6 },
             { name: 'Vue', desktop: 1, mobile: 6 },
-            { name: 'ASP.NET', desktop: 2, mobile: 6 },
-            { name: 'Laravel', desktop: 2, mobile: 6 },
-            { name: 'Ruby on Rails', desktop: 2, mobile: 6 },
-            { name: 'Kafka', desktop: 2, mobile: 6 },
-            { name: 'Spark', desktop: 2, mobile: 5 },
+            { name: 'ASP.NET', desktop: 3, mobile: 6 },
+            { name: 'Laravel', desktop: 3, mobile: 6 },
+            { name: 'Ruby on Rails', desktop: 4, mobile: 12 },
             { name: 'PyTorch', desktop: 2, mobile: 5 },
             { name: 'Jest', desktop: 1, mobile: 4 },
             { name: 'NUnit', desktop: 2, mobile: 5 },
@@ -60,8 +58,8 @@ const SKILLS = {
         ],
         mobileNumColumns: [
             4,
-            4,
-            5
+            3,
+            4
         ]
     },
     nextId: 'experience'
