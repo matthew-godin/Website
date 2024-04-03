@@ -3,18 +3,18 @@ const SKILLS = {
     programmingLanguages: {
         title: 'Programming Languages',
         content: [
-            { name: 'C#', desktop: 2, mobile: 4 },
             { name: 'TypeScript', desktop: 3, mobile: 8 },
             { name: 'JavaScript', desktop: 3, mobile: 8 },
-            { name: 'SQL', desktop: 2, mobile: 4 },
+            { name: 'C#', desktop: 2, mobile: 4 },
+            { name: 'Java', desktop: 2, mobile: 4 },
             { name: 'Python', desktop: 2, mobile: 6 },
+            { name: 'Ruby', desktop: 2, mobile: 6 },
             { name: 'Go', desktop: 1, mobile: 6 },
+            { name: 'SQL', desktop: 2, mobile: 6 },
             { name: 'C++', desktop: 2, mobile: 6 },
             { name: 'C', desktop: 1, mobile: 6 },
-            { name: 'Java', desktop: 2, mobile: 6 },
-            { name: 'Ruby', desktop: 2, mobile: 6 },
+            { name: 'PHP', desktop: 2, mobile: 6 },
             { name: 'Swift', desktop: 2, mobile: 6 },
-            { name: 'PHP', desktop: 2, mobile: 6 }
         ],
         mobileNumColumns: [
             4,
@@ -44,14 +44,14 @@ const SKILLS = {
     frameworks: {
         title: 'Frameworks',
         content: [
-            { name: 'Node.js', desktop: 2, mobile: 6 },
+            { name: 'Node.js', desktop: 2, mobile: 5 },
+            { name: 'React', desktop: 2, mobile: 5 },
+            { name: 'ASP.NET', desktop: 3, mobile: 5 },
+            { name: 'Ruby on Rails', desktop: 4, mobile: 9 },
+            { name: 'Laravel', desktop: 3, mobile: 8 },
+            { name: 'Vue', desktop: 1, mobile: 8 },
+            { name: 'PyTorch', desktop: 2, mobile: 8 },
             { name: 'Deno', desktop: 2, mobile: 6 },
-            { name: 'React', desktop: 2, mobile: 6 },
-            { name: 'Vue', desktop: 1, mobile: 6 },
-            { name: 'ASP.NET', desktop: 3, mobile: 7 },
-            { name: 'Laravel', desktop: 3, mobile: 7 },
-            { name: 'Ruby on Rails', desktop: 4, mobile: 10 },
-            { name: 'PyTorch', desktop: 2, mobile: 6 },
             { name: 'Jest', desktop: 1, mobile: 6 },
             { name: 'NUnit', desktop: 2, mobile: 6 },
             { name: 'JUnit', desktop: 2, mobile: 6 }
