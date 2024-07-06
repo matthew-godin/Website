@@ -4,8 +4,8 @@ import { SECTIONS_STYLE } from '../../constants/Styles';
 const { Paragraph } = Typography;
 
 const TOP_SECTION_HEIGHT = 2.5;
-const MIDDLE_SECTION_HEIGHT = 1.75;
-const BOTTOM_SECTION_HEIGHT = 4;
+const MIDDLE_SECTION_HEIGHT = 1.8125;
+const BOTTOM_SECTION_HEIGHT = 3.5;
 
 function MobilePortraitPosition(props) {
     const responsiveStyles = props.responsiveStyles;
