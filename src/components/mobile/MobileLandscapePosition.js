@@ -3,7 +3,7 @@ import { SECTIONS_STYLE } from '../../constants/Styles';
 import { getDivStyle } from '../../util/Styles';
 const { Paragraph } = Typography;
 
-const SECTION_HEIGHT = 7;
+const SECTION_HEIGHT = 6;
 
 function MobileLandscapePosition(props) {
     const responsiveStyles = props.responsiveStyles;
