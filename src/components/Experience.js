@@ -10,7 +10,7 @@ function Experience(props) {
     return (
         <>
             <TitleContainer title={EXPERIENCE.title} responsiveStyles={responsiveStyles} />
-            <div style={{minHeight: '5vh', maxHeight: '5vh', display: responsiveStyles.sectionsMobileSite}} />
+            <div style={{minHeight: '3vh', maxHeight: '3vh', display: responsiveStyles.sectionsMobileSite}} />
             {EXPERIENCE.content.map((position) =>
                 <Position job={position.title + " - " + position.company + " "} location={position.location} date={position.date}
                     description={position.description} skills={position.skills} responsiveStyles={responsiveStyles} />
