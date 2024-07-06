@@ -6,7 +6,7 @@ import { getDivStyle } from '../../util/Styles';
 import EXPERIENCE from '../../constants/content/Experience';
 import { toIdLink } from '../../util/Strings';
 
-const PORTRAIT_BOTTOM_SPACING = 10.5;
+const PORTRAIT_BOTTOM_SPACING = 0.5;
 const LANDSCAPE_TOP_SECTION_HEIGHT = 8.5;
 const LANDSCAPE_BOTTOM_SECTION_HEIGHT = 4;
 const LANDSCAPE_BOTTOM_SPACING = 6;
