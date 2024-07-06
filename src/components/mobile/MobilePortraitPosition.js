@@ -3,9 +3,9 @@ import { getDivStyle } from '../../util/Styles';
 import { SECTIONS_STYLE } from '../../constants/Styles';
 const { Paragraph } = Typography;
 
-const TOP_SECTION_HEIGHT = 2.25;
-const MIDDLE_SECTION_HEIGHT = 1.75;
-const BOTTOM_SECTION_HEIGHT = 4.75;
+const TOP_SECTION_HEIGHT = 2;
+const MIDDLE_SECTION_HEIGHT = 1;
+const BOTTOM_SECTION_HEIGHT = 4;
 
 function MobilePortraitPosition(props) {
     const responsiveStyles = props.responsiveStyles;

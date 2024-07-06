@@ -21,7 +21,7 @@ function MobileExperience(props) {
                     <MobilePortraitPosition job={position.title} company={position.company} date={position.date} responsiveStyles={responsiveStyles} />
                 )}
                 <MobileChevronContainer link={toIdLink(EXPERIENCE.nextId)} responsiveStyles={responsiveStyles} />
-                <div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />
+                {/*<div style={getDivStyle(PORTRAIT_BOTTOM_SPACING, responsiveStyles.displayMobileSite)} />*/}
             </>
         );
     } else {
