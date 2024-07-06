@@ -5,8 +5,8 @@ const { Paragraph } = Typography;
 
 const MAIN_FONT_SIZE = 24;
 const SECONDARY_FONT_SIZE = 20;
-const TOP_SECTION_HEIGHT = 4;
-const BOTTOM_SECTION_HEIGHT = 5;
+const TOP_SECTION_HEIGHT = 3;
+const BOTTOM_SECTION_HEIGHT = 4;
 
 function Position(props) {
     const responsiveStyles = props.responsiveStyles;
